@@ -1,0 +1,10 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms:   <http://purl.org/dc/terms/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+<https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/tree/master/specs> a adms:AssetRepository ;
+  dcterms:created "2019-06-03"^^xsd:date ;
+  dcterms:description "A catalog of API decriptions for DNB, handled by BITS"@en ;
+  dcterms:publisher <https://data.brreg.no/enhetsregisteret/enhet/981276957> ;
+  dcat:dataset <https://raw.githubusercontent.com/Informasjonsforvaltning/openAPI/master/specs/DNB_Accounts-API.json> ;
+  dcterms:title "API catalog DNB"@en .
