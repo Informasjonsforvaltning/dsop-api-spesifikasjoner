@@ -5,6 +5,6 @@
 <https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/tree/master/specs> a adms:AssetRepository ;
   dcterms:created "2019-06-03"^^xsd:date ;
   dcterms:description "A catalog of API decriptions for Sparebank1, handled by BITS"@en ;
-  dcterms:publisher <https://data.brreg.no/enhetsregisteret/enhet/975966372> ;
+  dcterms:publisher <https://data.brreg.no/enhetsregisteret/enhet/974760673> ;
   dcat:dataset <https://raw.githubusercontent.com/Informasjonsforvaltning/openAPI/master/specs/Sparebank1_Accounts-API.json> ;
   dcterms:title "API catalog Sparebank1"@en .
