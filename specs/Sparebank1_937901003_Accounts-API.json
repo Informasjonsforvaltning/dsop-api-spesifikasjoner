@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/{orgnoBank}"
+      "url": "https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937901003"
     }
   ],
   "paths": {
