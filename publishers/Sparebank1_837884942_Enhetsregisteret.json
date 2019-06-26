@@ -1,0 +1,53 @@
+{
+  "organisasjonsnummer": 837884942,
+  "navn": "SPAREBANK 1 ØSTFOLD AKERSHUS",
+  "stiftelsesdato": "1971-10-01",
+  "registreringsdatoEnhetsregisteret": "1995-02-19",
+  "maalform": "Bokmål",
+  "registrertIFrivillighetsregisteret": "N",
+  "registrertIMvaregisteret": "J",
+  "registrertIForetaksregisteret": "J",
+  "registrertIStiftelsesregisteret": "N",
+  "antallAnsatte": 183,
+  "orgform": {
+    "kode": "SPA",
+    "beskrivelse": "Sparebank"
+  },
+  "institusjonellSektorkode": {
+    "kode": "3200",
+    "beskrivelse": "Banker"
+  },
+  "naeringskode1": {
+    "kode": "64.190",
+    "beskrivelse": "Bankvirksomhet ellers"
+  },
+  "postadresse": {
+    "adresse": "Postboks 130",
+    "postnummer": "1501",
+    "poststed": "MOSS",
+    "kommunenummer": "0104",
+    "kommune": "MOSS",
+    "landkode": "NO",
+    "land": "Norge"
+  },
+  "forretningsadresse": {
+    "adresse": "Varnaveien 43E",
+    "postnummer": "1526",
+    "poststed": "MOSS",
+    "kommunenummer": "0136",
+    "kommune": "RYGGE",
+    "landkode": "NO",
+    "land": "Norge"
+  },
+  "sisteInnsendteAarsregnskap": 2018,
+  "konkurs": "N",
+  "underAvvikling": "N",
+  "underTvangsavviklingEllerTvangsopplosning": "N",
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://data.brreg.no/enhetsregisteret/enhet/837884942"
+    }
+  ],
+  "organisasjonsform": "SPA"
+}
