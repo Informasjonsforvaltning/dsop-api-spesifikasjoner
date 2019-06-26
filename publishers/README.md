@@ -6,7 +6,7 @@ For å hente opplysninger fra Enhetsregisteret om gitt virksomhet og skrive til 
 curl -H "Accept: application/json"  https://data.brreg.no/enhetsregisteret/enhet/837884942 |jq '.' > Sparebank1_837884942_Enhetsregisteret.json
 ```
 
-Et utvalg av disse opplysningene legges inn på følgende format, der overordnetEnhet trolig er unødvendig:
+Et utvalg av disse opplysningene legges inn på følgende format:
 
 ```
 {
