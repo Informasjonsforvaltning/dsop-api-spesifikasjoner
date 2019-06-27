@@ -1,0 +1,57 @@
+{
+  "organisasjonsnummer": 984851006,
+  "navn": "DNB BANK ASA",
+  "stiftelsesdato": "2002-09-10",
+  "registreringsdatoEnhetsregisteret": "2002-09-12",
+  "hjemmeside": "www.dnb.no",
+  "maalform": "Bokmål",
+  "registrertIFrivillighetsregisteret": "N",
+  "registrertIMvaregisteret": "J",
+  "registrertIForetaksregisteret": "J",
+  "registrertIStiftelsesregisteret": "N",
+  "frivilligRegistrertIMvaregisteret": [
+    "Utleier av bygg eller anlegg"
+  ],
+  "antallAnsatte": 6811,
+  "orgform": {
+    "kode": "ASA",
+    "beskrivelse": "Allmennaksjeselskap"
+  },
+  "institusjonellSektorkode": {
+    "kode": "3200",
+    "beskrivelse": "Banker"
+  },
+  "naeringskode1": {
+    "kode": "64.190",
+    "beskrivelse": "Bankvirksomhet ellers"
+  },
+  "postadresse": {
+    "adresse": "Postboks 1600 Sentrum",
+    "postnummer": "0021",
+    "poststed": "OSLO",
+    "kommunenummer": "0301",
+    "kommune": "OSLO",
+    "landkode": "NO",
+    "land": "Norge"
+  },
+  "forretningsadresse": {
+    "adresse": "Dronning Eufemias gate 30",
+    "postnummer": "0191",
+    "poststed": "OSLO",
+    "kommunenummer": "0301",
+    "kommune": "OSLO",
+    "landkode": "NO",
+    "land": "Norge"
+  },
+  "sisteInnsendteAarsregnskap": 2017,
+  "konkurs": "N",
+  "underAvvikling": "N",
+  "underTvangsavviklingEllerTvangsopplosning": "N",
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://data.brreg.no/enhetsregisteret/enhet/984851006"
+    }
+  ],
+  "organisasjonsform": "ASA"
+}
