@@ -1,0 +1,1 @@
+- [ ] Lag script som henter opplysninger fra Enhetsregisteret og generer publisher.json pr bank.
