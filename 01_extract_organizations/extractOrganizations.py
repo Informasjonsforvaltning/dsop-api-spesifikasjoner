@@ -13,8 +13,9 @@ with open("../banker.csv", encoding='utf-8') as f:
         url = "https://data.brreg.no/enhetsregisteret/api/enheter/" + orgNummer
         r = requests.get(url=url, headers=headers)
         print (orgNummer + ": " + str(r.status_code))
-        with open(orgNummer + '_enhetsregisteret.json', 'w') as outfile:
-            json.dump(r.json(), outfile)
+        print(r.json())
+        with open(orgNummer + '_enhetsregisteret.json', 'w', encoding="utf-8") as outfile:
+            json.dump(r.json(), outfile, ensure_ascii=False)
 
     # get total number of rows
     print("Total no. of organizations from enhetsregisteret: %d"%(reader.line_num - 1))
