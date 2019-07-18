@@ -1,5 +1,5 @@
 .PHONY: test
-all: extract transform load
+all: clean extract transform load
 
 extract:
 	python3 ./01_extract_organizations/extractOrganizations.py
@@ -9,3 +9,6 @@ transform:
 
 load:
 	echo "TODO: Load"
+
+clean:
+	rm *.json
