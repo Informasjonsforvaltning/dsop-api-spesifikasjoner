@@ -1,1 +1,2 @@
 - [ ] Lag script som henter opplysninger fra Enhetsregisteret og generer publisher.json pr bank.
+- [ ] Lag script som laster publisher inn i index på bakgrunn av fil i første punkt
