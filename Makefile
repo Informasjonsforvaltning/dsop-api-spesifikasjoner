@@ -1,5 +1,5 @@
 .PHONY: test
-all: clean extract transform load
+all: extract transform load
 
 extract:
 	python3 ./01_extract_organizations/extractOrganizations.py
