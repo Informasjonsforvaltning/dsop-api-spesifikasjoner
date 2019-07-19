@@ -1,4 +1,4 @@
-- [ ] Lag script som henter opplysninger fra Enhetsregisteret og generer publisher.json pr bank.
+- [x] Lag script som henter opplysninger fra Enhetsregisteret og generer publisher.json pr bank.
 - [ ] Lag script som laster publisher inn i index på bakgrunn av fil i første punkt
 - [ ] Lag script som generer openAPI spesifikasjoner
 - [ ] Lag script som laster openAPI spesifikasjoner inn i API-katalogens registreringsløsning
