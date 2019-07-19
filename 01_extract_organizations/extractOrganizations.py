@@ -9,7 +9,7 @@ with open("./banker.csv", encoding='utf-8') as f:
   # extracting field names through first row
     next(reader, None)
     for row in reader:
-        orgNummer = row[1]
+        orgNummer = row[0]
         url = "https://data.brreg.no/enhetsregisteret/api/enheter/" + orgNummer
         r = requests.get(url=url, headers=headers)
         print (orgNummer + ": " + str(r.status_code))
