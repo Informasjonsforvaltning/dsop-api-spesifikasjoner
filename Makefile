@@ -11,4 +11,4 @@ load:
 	echo "TODO: Load"
 
 clean:
-	rm *.json
+	rm ./tmp/*.json

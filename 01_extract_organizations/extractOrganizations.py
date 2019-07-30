@@ -14,7 +14,7 @@ with open("./banker.csv", encoding='utf-8') as f:
         r = requests.get(url=url, headers=headers)
         print (orgNummer + ": " + str(r.status_code))
         print(r.json())
-        with open(orgNummer + '_enhetsregisteret.json', 'w', encoding="utf-8") as outfile:
+        with open("./tmp/" + orgNummer + '_enhetsregisteret.json', 'w', encoding="utf-8") as outfile:
             json.dump(r.json(), outfile, ensure_ascii=False, indent=4)
 
     # get total number of rows

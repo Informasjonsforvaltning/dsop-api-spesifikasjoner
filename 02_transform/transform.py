@@ -38,8 +38,8 @@ with open("./banker.csv", encoding='utf-8') as f:
     next(reader, None)
     for row in reader:
         orgNummer = row[0]
-        inputfileName = orgNummer + "_enhetsregisteret.json"
-        outputfileName = orgNummer + "_Publisher.json"
+        inputfileName = "./tmp/" + orgNummer + "_enhetsregisteret.json"
+        outputfileName = "./tmp/" + orgNummer + "_Publisher.json"
         with open(inputfileName) as json_file:
             data = json.load(json_file)
             # Transform the organization object to publihser format:
