@@ -12,10 +12,13 @@ with open("./banker.csv", encoding='utf-8') as f:
         inputfileName = "./tmp/" + orgNummer + "_Publisher.json"
         with open(inputfileName) as json_file:
             data = json.load(json_file)
-            # Load the publisher by posting the data:
-            url = "https://" + "dittogdatt" + "/dcat/publisher/" + orgNummer
+            # PUT THE CORRECT URL IN HERE:
+            url = "dittogdatt" + "/dcat/publisher/" + orgNummer
             headers = {'Content-Type' : 'application/json'}
+            # PUT THE COOKIE NAME:VALUE IN HERE
+            cookies={'':''}
             print("Posting to the following url: ", url)
             print("Posting to publisher index the following data:\n", data)
-            r = requests.post(url, json=data, headers)
+            # Load the publisher by posting the data:
+            r = requests.post(url, cookies=cookies, json=data, headers=headers)
             print (orgNummer + ": " + str(r.status_code))
