@@ -21,13 +21,17 @@ def transformToPublisher(data):
     naeringskode = {}
     naeringskode['uri'] = "http://www.ssb.no/nace/sn2007/" + data['naeringskode1']['kode']
     naeringskode['code'] = data['naeringskode1']['kode']
-    naeringskode['prefLabel'] = data['naeringskode1']['beskrivelse']
+    prefLabel = {}
+    prefLabel['no'] = data['naeringskode1']['beskrivelse']
+    naeringskode['prefLabel'] = prefLabel
     transformed['naeringskode'] = naeringskode
     # Sektokode object
     sektorkode = {}
     sektorkode['uri'] = "http://www.brreg.no/sektorkode/" + data['institusjonellSektorkode']['kode']
     sektorkode['code'] = data['institusjonellSektorkode']['kode']
-    sektorkode['prefLabel'] = data['institusjonellSektorkode']['beskrivelse']
+    prefLabel = {}
+    prefLabel['no'] = data['institusjonellSektorkode']['beskrivelse']
+    sektorkode['prefLabel'] = prefLabel
     transformed['sektorkode'] = sektorkode
     # TODO Do the actual transformation
     return transformed
