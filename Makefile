@@ -12,6 +12,8 @@ transform:
 load:
 	echo "Loading...."
 	python3 ./03_load_publishers/loadPublishers.py
-
+generateSpec:
+	echo "Generating specifcation...."
+	python3 ./specs/generateSpecification.py
 clean:
 	rm ./tmp/*.json

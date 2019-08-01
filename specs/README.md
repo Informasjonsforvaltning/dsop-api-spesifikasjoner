@@ -14,6 +14,6 @@ A simple script is made to do the generation based on the banker.csv file and th
 - The server url for test is equal to the value in the "EndepunktTest" column, and
 - The file name of the specification is a concatenation of
 
-  - the name of the organization,
-  - the organization number, and
-  - the name of the master specification file
+  - the organization number,
+  - the name of the organization, and
+  - the name of the master specification file.
