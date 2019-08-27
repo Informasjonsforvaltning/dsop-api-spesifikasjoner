@@ -11,7 +11,7 @@
       "description": "production"
     },
     {
-      "url": "https://test.fest.com",
+      "url": "https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/944521836",
       "description": "test"
     }
   ],
