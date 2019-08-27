@@ -9,7 +9,8 @@ def generateSpec(template, bank):
     specification = copy.deepcopy(template)
     # Then put the bank-specific values into the specification:
     specification['info']['title'] = template['info']['title'] + ' ' + bank[1]
-    specification['servers'][0]['url'] = bank[2]
+    specification['servers'][0]['url'] = bank[3]
+    specification['servers'][1]['url'] = bank[4]
     return specification
 
 templateFilePath = './specs/'
@@ -24,9 +25,8 @@ with open(templateFilePath + templateFileName) as t:
             orgNummer = bank[0]
             orgName = bank[1].replace(' ', '-')
             templateFileName = templateFileName.replace(' ', '_')
-            specificationPath = "./tmp/"
-            specificationFileSuffix = '.json'
-            specificationFileName = specificationPath + orgNummer + '_' + orgName + '_' + templateFileName.strip('.yaml') + specificationFileSuffix
+            specificationPath = "./specs/"
+            specificationFileName = specificationPath + bank[2]
             print('writing specifcation to file', specificationFileName)
             with open(specificationFileName, 'w', encoding="utf-8") as outfile:
                 json.dump(generateSpec(template, bank), outfile, ensure_ascii=False, indent=2)

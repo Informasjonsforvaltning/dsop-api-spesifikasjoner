@@ -47,6 +47,9 @@ info:
   title: Accounts API
 servers:
   - url: 'https://hostname.no/v1'
+    description: 'production'
+  - url: 'https://hostname.no/v1'
+    description: 'test'
 paths:
   /accounts:
     get:
