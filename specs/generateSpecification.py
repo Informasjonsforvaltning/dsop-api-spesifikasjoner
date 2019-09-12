@@ -25,7 +25,7 @@ templateFilePath = './specs/'
 templateFileName = 'Accounts API openapi v1.0.0-RC2.yaml'
 with open(templateFilePath + templateFileName) as t:
     template = yaml.safe_load(t)
-    with open("./banker.csv", encoding='utf-8') as f:
+    with open(args.inputfile, encoding='utf-8') as f:
         reader = csv.reader(f, delimiter=",")
         # extracting field names through first row
         next(reader, None)
