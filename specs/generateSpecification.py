@@ -4,6 +4,14 @@ import sys
 import csv
 import copy
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-i', '--inputfile', help="the path to the input csv-file", required=True)
+args = parser.parse_args()
+
+print("Reading organizations from: %s"%args.inputfile)
+
 def generateSpec(template, bank):
     # Need to do a deepcopy to actually copy the template into a new object.
     specification = copy.deepcopy(template)
