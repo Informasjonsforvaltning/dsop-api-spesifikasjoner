@@ -1,3 +1,3 @@
 OrgNummer,Navn,Filnavn,EndepunktProduksjon, EndepunktTest
-920058817,"Nordea Bank Abp, filial i Norge",https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1/accounts,https://RB-DSOP-ARC642-NO-preprod-extranet.preprod.nordea.com:9040/v1/accounts
-998997801,"Komplett Bank AS",https://eoppslag.online.komplettbank.no/v1/,https://eoppslag.onlineservices.komplettbank.no/pp/v1/
+920058817,"Nordea Bank Abp, filial i Norge",Nordea_Bank_Abp_920058817_Accounts-API.json,https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1/accounts,https://RB-DSOP-ARC642-NO-preprod-extranet.preprod.nordea.com:9040/v1/accounts
+998997801,"Komplett Bank AS",Komplett_Bank_998997801_Accounts-API.json,https://eoppslag.online.komplettbank.no/v1/,https://eoppslag.onlineservices.komplettbank.no/pp/v1/
