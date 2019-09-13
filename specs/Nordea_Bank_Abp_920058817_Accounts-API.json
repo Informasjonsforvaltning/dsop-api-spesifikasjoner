@@ -7,11 +7,11 @@
   },
   "servers": [
     {
-      "url": "https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1/accounts",
+      "url": "https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1",
       "description": "production"
     },
     {
-      "url": "https://RB-DSOP-ARC642-NO-preprod-extranet.preprod.nordea.com:9040/v1/accounts",
+      "url": "https://RB-DSOP-ARC642-NO-preprod-extranet.preprod.nordea.com:9040/v1",
       "description": "test"
     }
   ],
