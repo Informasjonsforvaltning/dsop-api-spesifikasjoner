@@ -17,8 +17,20 @@ def generateSpec(template, bank):
     specification = copy.deepcopy(template)
     # Then put the bank-specific values into the specification:
     specification['info']['title'] = template['info']['title'] + ' ' + bank[1]
-    specification['servers'][0]['url'] = bank[3]
-    specification['servers'][1]['url'] = bank[4]
+    # We must recreate the Server object
+    specification['servers'] = []
+    # Prod url
+    if (len(bank[3]) > 0):
+        server = {}
+        server['url'] = bank[3]
+        server['description'] = 'production'
+        specification['servers'].append(server)
+    # Test url
+    if (len(bank[4]) > 0):
+        server = {}
+        server['url'] = bank[4]
+        server['description'] = 'test'
+        specification['servers'].append(server)
     return specification
 
 templateFilePath = './specs/'
