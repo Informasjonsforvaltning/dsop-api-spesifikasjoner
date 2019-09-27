@@ -1,0 +1,2 @@
+OrgNummer,Navn,Filnavn,EndepunktProduksjon, EndepunktTest
+991455671," Bank Norwegian AS",Bank_Norwegian_AS_991455671_Accounts-API.json,,https://api.test.banknorwegian.no/dsop
