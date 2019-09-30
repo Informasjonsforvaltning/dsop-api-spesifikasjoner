@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.test.banknorwegian.no/dsop",
+      "url": "https://api.test.banknorwegian.no/dsop/v1",
       "description": "test"
     }
   ],
