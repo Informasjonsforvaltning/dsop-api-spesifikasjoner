@@ -3,6 +3,6 @@ all: generatespec
 
 generatespec:
 	echo "Generating specifcation...."
-	python3 ./specs/generateSpecification.py -i ./banker_03.csv
+	python3 ./specs/generateSpecification.py -i ./banker_04.csv
 clean:
 	rm ./tmp/*.json
