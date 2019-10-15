@@ -1,4 +1,4 @@
 OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2811/
 971171324,"Handelsbanken",Handelsbanken_971171324_Accounts-API.json,,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055/
-915287700,"Sbanken",Sbanken_915287700_Accounts-API.json,,https://api-sbx.sbanken.no/exec.dsop/api/v1/ 
+915287700,"Sbanken",Sbanken_915287700_Accounts-API.json,,https://api-sbx.sbanken.no/exec.dsop/api/v1/
