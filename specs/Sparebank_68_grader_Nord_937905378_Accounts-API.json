@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378/",
+      "url": "https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378",
       "description": "test"
     }
   ],
