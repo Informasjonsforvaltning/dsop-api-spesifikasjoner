@@ -33,7 +33,7 @@ def generateSpec(template, bank):
         specification['servers'].append(server)
     return specification
 
-templateFilePath = './specs/'
+templateFilePath = './script/'
 templateFileName = 'Accounts API openapi v1.0.0-RC2.yaml'
 with open(templateFilePath + templateFileName) as t:
     template = yaml.safe_load(t)
