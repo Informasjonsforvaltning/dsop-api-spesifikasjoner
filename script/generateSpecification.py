@@ -48,5 +48,11 @@ with open(templateFilePath + templateFileName) as t:
             specificationPath = "./specs/"
             specificationFileName = specificationPath + bank[2]
             print('writing specifcation to file', specificationFileName)
+            # Validate Prod url:
+            if (bank[3].endswith('/')):
+                sys.exit('ERROR: Trailing slash in url is not allowed >' + bank[3] + '<')
+            # Validate Test url:
+            if (bank[4].endswith('/')):
+                sys.exit('ERROR: Trailing slash in url is not allowed >' + bank[4] + '<')
             with open(specificationFileName, 'w', encoding="utf-8") as outfile:
                 json.dump(generateSpec(template, bank), outfile, ensure_ascii=False, indent=2)

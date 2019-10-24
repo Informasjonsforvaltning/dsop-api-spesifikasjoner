@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://eoppslag.onlineservices.komplettbank.no/pp/v1/",
+      "url": "https://eoppslag.onlineservices.komplettbank.no/pp/v1",
       "description": "test"
     }
   ],

@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055/",
+      "url": "https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055",
       "description": "test"
     }
   ],

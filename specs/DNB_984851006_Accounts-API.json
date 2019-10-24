@@ -11,7 +11,7 @@
       "description": "production"
     },
     {
-      "url": "https://test.publicsector.dnb.no/v1/",
+      "url": "https://test.publicsector.dnb.no/v1",
       "description": "test"
     }
   ],
