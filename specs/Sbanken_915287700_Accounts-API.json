@@ -7,6 +7,10 @@
   },
   "servers": [
     {
+      "url": "https://api.sbanken.no/exec.dsop/api/v1",
+      "description": "production"
+    },
+    {
       "url": "https://api-sbx.sbanken.no/exec.dsop/api/v1",
       "description": "test"
     }
