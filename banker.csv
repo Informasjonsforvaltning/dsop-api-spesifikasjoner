@@ -1,4 +1,4 @@
-OrgNummer,Navn,Filnavn,EndepunktProduksjon, EndepunktTest
+OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 837884942,SPAREBANK 1 ØSTFOLD AKERSHUS,Sparebank1_837884942_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/837884942,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/837884942
 920426530,SPAREBANK 1 ØSTLANDET,Sparebank1_920426530_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/920426530,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/920426530
 937888015,SPAREBANK 1 LOM OG SKJÅK,Sparebank1_937888015_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888015,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888015
@@ -86,3 +86,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon, EndepunktTest
 837900212,Ørskog Sparebank,Orskog_Sparebank_837900212_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/837900212,
 937894260,Østre Agder Sparebank,Ostre_Agder_Sparebank_937894260_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894260,
 937902441,Åfjord Sparebank,Afjord_Sparebank_937902441_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937902441,
+917135428,Kredd AS,Kredd_AS_917135428_Accounts-API.json,,https://api-test.kredd.it/kok/v1
