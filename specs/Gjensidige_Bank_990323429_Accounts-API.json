@@ -3,16 +3,12 @@
   "info": {
     "description": "Open API spesifikasjon av Konto APIene. (Under arbeid)\n* 0.7.5: Flyttet kontonummer til header\n* 0.7.6: Lagt til responsestatus for alle responser. Rettet på xml-navnene for rotelementene (roles, cards etc). Rettet navngiving av roles endepunktet.\n* 0.7.7: Endret content-type fra application/jose+json til application/jose siden kryptert respons skal representeres iht JWE compact serialization.\n* 0.7.8: Endret Case for AccountID som header verdi, og endret beskrivelsen av denne parameteren for noen av endepunktene.\n* 0.7.9: Endret servers.url så den validerer, /accounts_med_accountid_i_header returnerer responseStatus og account, Transactions.transaction renamet til transactions, Transaction.links flyttet til Transactions.links\n* 0.8.0: Byttet til \"native\" typer for string. Ordnet typer alfabetisk. Fikset ISOdate slik at den bruker date og ikke date-time typen. La til noen beskrivelser. Tok bort date som format for AccountID (copy paste feil).\n* 0.8.1: Rettet følgende skrivefeil: streetname -> streetName, reverselIndicator -> reversalIndicator, receviedDirectDebits -> receivedDirectDebits, receivedCashConsentrationTransactions -> receivedCashConcentrationTransactions, commisions -> commissions, , debitCardPayment -> debetCardPayment\n* 0.9.0: \"Revision 2\" - Kontoreferanse som erstatning for kontonummer i URL'ene\n* 0.9.1: Endret fra Paymentcard til Paymentcards i kortresponsen.\n* 0.9.2: Fikset type knyttet til Transaction.additionalInfo\n* 0.9.3: Start og sluttdato er lagt til konto-objektet. Lagt til mer beskrivelse av paginering for transaksjoner. Endret fra electronicAddress til electronicAddresses i AccountRole.\n  Endret fra balance til balances i AccountDetail. Endret fra addressLine til addressLines i PostalAddress. Endret fra reference til references i Transaction. Endret fra counterParty til counterParties i Transaction\n\n* 1.0.0: Tydeliggjøring av at tom liste skal gis ved ingen treff for liste-funksjonene. Tydeliggjøring av at manglende fra og til dato skal tolkes som dagens dato. La til uteglemt feilkode for ugyldige parametere (400 - Bad request). Fjernet feilkode 404 for cards og roles, det skal gis tom liste. Tydeliggjøring av paginering for transaksjoner. Fjernet xml som format, ikke i bruk. Rettet i beskrivelsen til kortnummer. Tydeliggjøring i beskrivelsen av at beløp alltid skal ha positiv verdi, og creditDebitIndicator skal benyttes for å vise om beløpet er positivt eller negativt. Omgjorde Accountreference til obligatorisk felt i responsene.\n  Flyttet lenkeelementet til rot-nivået i Kontoliste-endepunktet. Økte makslengde til 50 for rel elementet. \n",
     "version": "1.0.0",
-    "title": "Accounts API Handelsbanken"
+    "title": "Accounts API Gjensidige Bank"
   },
   "servers": [
     {
-      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9055",
+      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9775",
       "description": "production"
-    },
-    {
-      "url": "https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055",
-      "description": "test"
     }
   ],
   "paths": {

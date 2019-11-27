@@ -18,8 +18,8 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 998997801,"Komplett Bank AS",Komplett_Bank_998997801_Accounts-API.json,,https://eoppslag.onlineservices.komplettbank.no/pp/v1
 991455671,"Bank Norwegian AS",Bank_Norwegian_AS_991455671_Accounts-API.json,https://api.banknorwegian.no/dsop/v1,https://api.test.banknorwegian.no/dsop/v1
 937905378,"Sparebank 68 grader Nord",Sparebank_68_grader_Nord_937905378_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937905378,https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378
-937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2811
-971171324,"Handelsbanken",Handelsbanken_971171324_Accounts-API.json,,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055
+937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2811,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2811
+971171324,"Handelsbanken",Handelsbanken_971171324_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9055,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9055
 915287700,"Sbanken",Sbanken_915287700_Accounts-API.json,https://api.sbanken.no/exec.dsop/api/v1,https://api-sbx.sbanken.no/exec.dsop/api/v1,
 937903502,Aasen Sparebank,Aasen_Sparebank_937903502_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937903502,
 937890540,Andebu Sparebank,Andebu_Sparebank_937890540_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937890540,
@@ -87,3 +87,20 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937894260,Østre Agder Sparebank,Ostre_Agder_Sparebank_937894260_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894260,
 937902441,Åfjord Sparebank,Afjord_Sparebank_937902441_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937902441,
 917135428,Kredd AS,Kredd_AS_917135428_Accounts-API.json,,https://api-test.kredd.it/kok/v1
+914864445,BN Bank,BN_Bank_914864445_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9235,
+937897464,Etne Sparebank,Etne_Sparebank_937897464_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3543,
+937894627,Flekkefjord Sparebank,Flekkefjord_Sparebank_937894627_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3030,
+837895502,Haugesund Sparebank,Haugesund_Sparebank_837895502_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3240,
+937893655,Lillesands Sparebank,Lillesands_Sparebank_937893655_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2850,
+937898614,Luster Sparebank,Luster_Sparebank_937898614_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3785,
+937896670,Skudenes & Aakra Sparebank,Skudenes_og_Aakra_Sparebank_937896670_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3361,
+937894716,Spareskillingsbanken,Spareskillingsbanken_937894716_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3060,
+937895054,Søgne og Greipstad Sparebank,Sogne_og_Greipstad_Sparebank_937895054_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3090,
+937897286,Voss Sparebank,Voss_Sparebank_937897286_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3480,
+990323429,Gjensidige Bank,Gjensidige_Bank_990323429_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9775,
+937904029,Helgeland Sparebank,Helgeland_Sparebank_937904029_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4530,
+980374181,Landkreditt Bank,Landkreditt_Bank_980374181_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9365,
+911986884,OBOS-banken,OBOS-banken_911986884_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9820,
+937899319,Sparebanken Møre,Sparebanken_More_937899319_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3910,
+937888937,Sparebanken Øst,Sparebanken_Ost_937888937_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2220,
+832554332,Sparebanken Vest,Sparebanken_Vest_832554332_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3625,
