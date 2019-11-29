@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9365",
+      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9360",
       "description": "production"
     }
   ],
