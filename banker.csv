@@ -109,3 +109,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 953299216,Storebrand Bank ASA,Storebrand_Bank_ASA_953299216_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/953299216,
 946670081,Sparebanken Sogn og Fjordane,Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3702,
 993821837,KLP Banken AS,KLP_Banken_AS_993821837_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/8317,
+995610760,Brage Finans AS,Brage_Finans_AS_995610760_Accounts-API.json,,https://debtinfohub.brage.no:8080/dsop-service-test/api/v1
