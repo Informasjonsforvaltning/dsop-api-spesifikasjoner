@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://debtinfohub.brage.no:8080/dsop-service-test/api/v1",
+      "url": "https://testdebtinfohub.brage.no/dsop-service-test/api/v1",
       "description": "test"
     }
   ],
