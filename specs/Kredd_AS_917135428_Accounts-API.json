@@ -7,6 +7,10 @@
   },
   "servers": [
     {
+      "url": "https://api.kredd.it/kok/v1",
+      "description": "production"
+    },
+    {
       "url": "https://api-test.kredd.it/kok/v1",
       "description": "test"
     }
