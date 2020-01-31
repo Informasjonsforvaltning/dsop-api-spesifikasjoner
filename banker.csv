@@ -110,3 +110,5 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 946670081,Sparebanken Sogn og Fjordane,Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3702,
 993821837,KLP Banken AS,KLP_Banken_AS_993821837_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/8317,
 995610760,Brage Finans AS,Brage_Finans_AS_995610760_Accounts-API.json,,https://testdebtinfohub.brage.no/dsop-service-test/api/v1
+977074010,Danske Bank,Danske_Bank_977074010_Accounts-API.json,,https://sandbox-apiu.danskebank.no/sandbox/external-unauth/dsop-controlling/v1
+816914582,Instabank ASA,Instabank_ASA_816914582_Accounts-API.json,,https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1
