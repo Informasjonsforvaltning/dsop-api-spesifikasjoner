@@ -7,6 +7,10 @@
   },
   "servers": [
     {
+      "url": "https://debtinfohub.brage.no/dsop-service/api/v1",
+      "description": "production"
+    },
+    {
       "url": "https://testdebtinfohub.brage.no/dsop-service-test/api/v1",
       "description": "test"
     }
