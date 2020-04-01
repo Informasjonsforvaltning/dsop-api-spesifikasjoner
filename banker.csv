@@ -112,3 +112,6 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 995610760,Brage Finans AS,Brage_Finans_AS_995610760_Accounts-API.json,https://debtinfohub.brage.no/dsop-service/api/v1,https://testdebtinfohub.brage.no/dsop-service-test/api/v1
 977074010,Danske Bank,Danske_Bank_977074010_Accounts-API.json,https://apiu.danskebank.no/prod/external-unauthenticated/dsop-controlling/v1,https://sandbox-apiu.danskebank.no/sandbox/external-unauth/dsop-controlling/v1
 816914582,Instabank ASA,Instabank_ASA_816914582_Accounts-API.json,https://api.instabank.no/dsop-accounts/v1,https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1
+995268841,Bluestep Bank AB Filial Oslo,Bluestep_Bank_AB_Filial_Oslo_995268841_Accounts-API.json,,https://api-test.bluestep.se/koko/api/v1
+991682511,Ekspress Bank,Ekspress_Bank_991682511_Accounts-API.json,,https://apigateway.preprod.expressbank.dk/control-information/v1
+916573154,Nordax Bank AB (PUBL),Nordax_Bank_AB_916573154_Accounts-API.json,,https://partner.preprod.nordax.com/DSOP/v1
