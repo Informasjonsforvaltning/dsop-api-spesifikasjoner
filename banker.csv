@@ -15,7 +15,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 952706365,SPAREBANK 1 NORD-NORGE,Sparebank1_952706365_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/952706365,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/952706365
 984851006,DNB,DNB_984851006_Accounts-API.json,https://publicsector.dnb.no/v1,https://test.publicsector.dnb.no/v1
 920058817,"Nordea Bank Abp, filial i Norge",Nordea_Bank_Abp_920058817_Accounts-API.json,https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1,https://RB-DSOP-ARC642-NO-test01-extranet.test.nordea.com:9040/v1
-998997801,"Komplett Bank AS",Komplett_Bank_998997801_Accounts-API.json,,https://eoppslag.onlineservices.komplettbank.no/pp/v1
+998997801,"Komplett Bank AS",Komplett_Bank_998997801_Accounts-API.json,https://eoppslag.online.komplettbank.no/v1,https://eoppslag.onlineservices.komplettbank.no/pp/v1
 991455671,"Bank Norwegian AS",Bank_Norwegian_AS_991455671_Accounts-API.json,https://api.banknorwegian.no/dsop/v1,https://api.test.banknorwegian.no/dsop/v1
 937905378,"Sparebank 68 grader Nord",Sparebank_68_grader_Nord_937905378_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937905378,https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378
 937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2844,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2844
