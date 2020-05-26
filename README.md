@@ -17,3 +17,9 @@ A simple script is made to do the generation based on the banker.csv file and th
   - the organization number,
   - the name of the organization, and
   - the name of the master specification file.
+
+## Requirements
+- make
+- python
+- pip
+- pyyaml
