@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://externalcontrolapi.bralabs.no",
+      "url": "https://externalcontrolapi.bralabs.no/v1",
       "description": "test"
     }
   ],
