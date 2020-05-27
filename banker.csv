@@ -115,4 +115,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 995268841,Bluestep Bank AB Filial Oslo,Bluestep_Bank_AB_Filial_Oslo_995268841_Accounts-API.json,,https://api-test.bluestep.se/koko/api/v1
 991682511,Ekspress Bank,Ekspress_Bank_991682511_Accounts-API.json,https://apigateway.expressbank.dk/control-information/v1,https://apigateway.preprod.expressbank.dk/control-information/v1
 916573154,Nordax Bank AB (PUBL),Nordax_Bank_AB_916573154_Accounts-API.json,,https://partner.preprod.nordax.com/DSOP/v1
-913460715,BRAbank ASA,BRAbank_ASA_913460715_Accounts-API.json,,https://externalcontrolapi.bralabs.no
+913460715,BRAbank ASA,BRAbank_ASA_913460715_Accounts-API.json,,https://externalcontrolapi.bralabs.no/v1
