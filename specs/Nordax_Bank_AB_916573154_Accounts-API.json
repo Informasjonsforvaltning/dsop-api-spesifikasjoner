@@ -7,6 +7,10 @@
   },
   "servers": [
     {
+      "url": "https://partner.nordax.com/DSOP/v1",
+      "description": "production"
+    },
+    {
       "url": "https://partner.preprod.nordax.com/DSOP/v1",
       "description": "test"
     }
