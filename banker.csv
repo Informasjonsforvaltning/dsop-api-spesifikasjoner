@@ -102,7 +102,6 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 980374181,Landkreditt Bank,Landkreditt_Bank_980374181_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9360,
 911986884,OBOS-banken,OBOS-banken_911986884_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9824,
 937899319,Sparebanken Møre,Sparebanken_More_937899319_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3914,
-937888937,Sparebanken Øst,Sparebanken_Ost_937888937_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2229,
 832554332,Sparebanken Vest,Sparebanken_Vest_832554332_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3601,
 937896859,Fana Sparebank,Fana_Sparebank_937896859_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3400,
 916012683,MyBank ASA,MyBank_ASA_916012683_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/916012683,
