@@ -8,6 +8,10 @@
   "servers": [
     {
       "url": "https://externalcontrolapi.bralabs.no/v1",
+      "description": "production"
+    },
+    {
+      "url": "https://externalcontrolapi.bralabs.no/v1",
       "description": "test"
     }
   ],
