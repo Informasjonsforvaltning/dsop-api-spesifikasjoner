@@ -3,6 +3,6 @@ all: generatespec
 
 generatespec:
 	echo "Generating specifcation...."
-	python3 ./script/generateSpecification.py -i ./banker.csv
+	python3 ./src/dsop_api_spesifikasjoner/generateSpecification.py -i ./banker.csv
 clean:
 	rm ./tmp/*.json
