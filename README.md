@@ -18,8 +18,36 @@ A simple script is made to do the generation based on the banker.csv file and th
   - the name of the organization, and
   - the name of the master specification file.
 
-## Requirements
-- make
-- python
-- pip
-- pyyaml
+## Development
+### Requirements
+- python3
+- [pyenv](https://github.com/pyenv/pyenv) (recommended)
+- [poetry](https://python-poetry.org/)
+- [nox](https://nox.thea.codes/en/stable/)
+
+### Install
+```
+% git clone https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner.git
+% cd dsop-api-spesifikasjoner
+% pyenv install 3.8.3
+% pyenv install 3.7.7
+% pyenv local 3.8.3 3.7.7
+% poetry install
+```
+### Run all sessions
+```
+% nox
+```
+### Run all tests with coverage reporting
+```
+% nox -rs tests
+```
+## Run cli script
+```
+% poetry shell
+% dsop_api_spesifikasjoner --help
+```
+Alternatively you can use `poetry run`:
+```
+% poetry run dsop_api_spesifikasjoner --help
+```
