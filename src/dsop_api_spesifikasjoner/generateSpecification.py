@@ -1,27 +1,47 @@
 """Module for generate openAPI specifications."""
-import argparse
 import copy
 import csv
 import json
 import sys
 from typing import Any, List
 
+import click
 import yaml
 
-
-def parse_args() -> Any:
-    """Parse arguments given at command line."""
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-i", "--inputfile", help="the path to the input csv-file", required=True
-    )
-    args = parser.parse_args()
-
-    print("Reading organizations from: %s" % args.inputfile)
-    return args
+from . import __version__
 
 
-def generateSpec(template: dict, bank: List[str]) -> dict:
+@click.command()
+@click.version_option(version=__version__)
+@click.argument("template", type=click.File("r"))
+@click.argument("input", type=click.File("r"))
+@click.argument("path", type=click.Path(exists=True))
+def main(template: Any, input: Any, path: Any) -> None:
+    """Write specifcation based on template for bank."""
+    template = yaml.safe_load(template)
+    input = csv.reader(input, delimiter=",")
+    # extracting field names through first row
+    next(input)
+    for bank in input:
+        # specificationFileName = specificationPath + bank[2]
+        specificationFileName = path + bank[2]
+        # Validate Prod url:
+        if bank[3].endswith("/"):
+            sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[3] + "<")
+        # Validate Test url:
+        if bank[4].endswith("/"):
+            sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[4] + "<")
+        spec = _generateSpec(template, bank)
+        with open(specificationFileName, "w", encoding="utf-8") as outfile:
+            json.dump(
+                spec,
+                outfile,
+                ensure_ascii=False,
+                indent=2,
+            )
+
+
+def _generateSpec(template: dict, bank: List[str]) -> dict:
     """Generate spec based on template for bank."""
     # Need to do a deepcopy to actually copy the template into a new object.
     specification = copy.deepcopy(template)
@@ -42,41 +62,3 @@ def generateSpec(template: dict, bank: List[str]) -> dict:
         server["description"] = "test"
         specification["servers"].append(server)
     return specification
-
-
-def write_specification(args: Any) -> None:
-    """Write specifcation based on template for bank."""
-    templateFilePath = "./template/"
-    templateFileName = "Accounts API openapi v1.0.0-RC2.yaml"
-    with open(templateFilePath + templateFileName) as t:
-        template = yaml.safe_load(t)
-        with open(args.inputfile, encoding="utf-8") as f:
-            reader = csv.reader(f, delimiter=",")
-            # extracting field names through first row
-            next(reader, None)
-            for bank in reader:
-                specificationPath = "./specs/"
-                specificationFileName = specificationPath + bank[2]
-                print("writing specifcation to file", specificationFileName)
-                # Validate Prod url:
-                if bank[3].endswith("/"):
-                    sys.exit(
-                        "ERROR: Trailing slash in url is not allowed >" + bank[3] + "<"
-                    )
-                # Validate Test url:
-                if bank[4].endswith("/"):
-                    sys.exit(
-                        "ERROR: Trailing slash in url is not allowed >" + bank[4] + "<"
-                    )
-                with open(specificationFileName, "w", encoding="utf-8") as outfile:
-                    json.dump(
-                        generateSpec(template, bank),
-                        outfile,
-                        ensure_ascii=False,
-                        indent=2,
-                    )
-
-
-if __name__ == "__main__":
-    args = parse_args()
-    write_specification(args)

@@ -1,5 +1,5 @@
 - [x] Make script that creates openAPI specifications for banks in banker.csv
 - [x] Use poetry/nox toolchain
-- [ ] Implementer tests and coverage
+- [x] Implementer tests and coverage
 - [ ] Make script that loads openAPI spesfications into dataservice-publisher
-- [ ] Consider using [click](https://click.palletsprojects.com/en/7.x/)
+- [x] Consider using [click](https://click.palletsprojects.com/en/7.x/)

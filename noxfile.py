@@ -8,7 +8,7 @@ from nox.sessions import Session
 package = "dsop_api_spesifikasjoner"
 locations = "src", "tests", "noxfile.py"
 nox.options.stop_on_first_error = True
-nox.options.sessions = ("lint", "mypy", "tests")
+nox.options.sessions = ("black", "lint", "mypy", "tests")
 
 
 def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:
@@ -28,14 +28,18 @@ def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> Non
 @nox.session(python=["3.7", "3.8"])
 def tests(session: Session) -> None:
     """Run the test suite."""
-    args = session.posargs
+    args = session.posargs or ["--cov"]
     session.run("poetry", "install", "--no-dev", external=True)
-    install_with_constraints(session, "pytest")
+    install_with_constraints(
+        session,
+        "coverage[toml]",
+        "pytest",
+        "pytest-cov",
+    )
     session.run(
         "pytest",
         "-rA",
         *args,
-        env={"DATASERVICE_PUBLISHER_URL": "http://dataservice-publisher:8080"},
     )
 
 

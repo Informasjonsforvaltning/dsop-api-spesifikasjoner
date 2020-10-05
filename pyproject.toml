@@ -8,6 +8,7 @@ license = "Apache-2.0"
 [tool.poetry.dependencies]
 python = "^3.7"
 PyYAML = "^5.3.1"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.1"
@@ -22,6 +23,21 @@ flake8-docstrings = "^1.5.0"
 flake8-import-order = "^0.18.1"
 darglint = "^1.5.5"
 flake8-assertive = "^1.2.1"
+pytest-cov = "^2.10.1"
+
+[tool.poetry.scripts]
+dsop_api_spesifikasjoner = "dsop_api_spesifikasjoner.generateSpecification:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = false
+source = ["dsop_api_spesifikasjoner"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
