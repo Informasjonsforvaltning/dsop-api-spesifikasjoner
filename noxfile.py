@@ -8,7 +8,7 @@ from nox.sessions import Session
 package = "dsop_api_spesifikasjoner"
 locations = "src", "tests", "noxfile.py"
 nox.options.stop_on_first_error = True
-nox.options.sessions = ("black", "lint", "mypy", "tests")
+nox.options.sessions = ("black", "lint", "mypy", "pytype", "tests")
 
 
 def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:
@@ -31,10 +31,7 @@ def tests(session: Session) -> None:
     args = session.posargs or ["--cov"]
     session.run("poetry", "install", "--no-dev", external=True)
     install_with_constraints(
-        session,
-        "coverage[toml]",
-        "pytest",
-        "pytest-cov",
+        session, "coverage[toml]", "pytest", "pytest-cov", "pytest-mock", "deepdiff"
     )
     session.run(
         "pytest",
@@ -93,6 +90,14 @@ def mypy(session: Session) -> None:
     args = session.posargs or locations
     install_with_constraints(session, "mypy")
     session.run("mypy", *args)
+
+
+@nox.session(python="3.7")
+def pytype(session: Session) -> None:
+    """Run the static type checker using pytype."""
+    args = session.posargs or ["--disable=import-error", *locations]
+    install_with_constraints(session, "pytype")
+    session.run("pytype", *args)
 
 
 @nox.session(python=["3.7", "3.8"])

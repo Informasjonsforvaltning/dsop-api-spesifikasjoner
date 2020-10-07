@@ -9,6 +9,7 @@ license = "Apache-2.0"
 python = "^3.7"
 PyYAML = "^5.3.1"
 click = "^7.1.2"
+jsonpickle = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.1"
@@ -16,6 +17,7 @@ black = "^20.8b1"
 flake8 = "^3.8.4"
 flake8-black = "^0.2.1"
 mypy = "^0.782"
+pytype = {version = "^2020.2.20", python = "3.7"}
 flake8-annotations = "^2.4.1"
 flake8-bandit = "^2.1.2"
 flake8-bugbear = "^20.1.4"
@@ -24,6 +26,8 @@ flake8-import-order = "^0.18.1"
 darglint = "^1.5.5"
 flake8-assertive = "^1.2.1"
 pytest-cov = "^2.10.1"
+deepdiff = "^5.0.2"
+pytest-mock = "^3.3.1"
 
 [tool.poetry.scripts]
 dsop_api_spesifikasjoner = "dsop_api_spesifikasjoner.generateSpecification:main"

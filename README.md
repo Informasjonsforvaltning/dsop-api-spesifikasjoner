@@ -29,9 +29,9 @@ A simple script is made to do the generation based on the banker.csv file and th
 ```
 % git clone https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner.git
 % cd dsop-api-spesifikasjoner
-% pyenv install 3.8.3
-% pyenv install 3.7.7
-% pyenv local 3.8.3 3.7.7
+% pyenv install 3.8.6
+% pyenv install 3.7.9
+% pyenv local 3.8.6 3.7.9
 % poetry install
 ```
 ### Run all sessions

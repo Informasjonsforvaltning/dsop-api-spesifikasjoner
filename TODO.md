@@ -3,3 +3,4 @@
 - [x] Implementer tests and coverage
 - [ ] Make script that loads openAPI spesfications into dataservice-publisher
 - [x] Consider using [click](https://click.palletsprojects.com/en/7.x/)
+- [ ] Support both yaml and json with option (default: yaml) for specs
