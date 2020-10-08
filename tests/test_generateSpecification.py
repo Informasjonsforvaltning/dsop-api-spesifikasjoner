@@ -123,11 +123,15 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           },
           "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/991825827",
           "apis": [
-            {
-              "identifier": "https://dataservice-publisher.digdir.no/dataservices/1234",
-              "url": "%s"
-            }
-           ]
+           {
+            "identifier": "https://dataservice-publisher.digdir.no/dataservices/1234",
+            "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/837884942",
+            "url": "%s",
+            "conformsTo": [
+               "https://data.norge.no/specification/kontoopplysninger"
+            ]
+           }
+          ]
         }
         """ % (
             URL_BASE + "Sparebank1_837884942_Accounts-API.json"

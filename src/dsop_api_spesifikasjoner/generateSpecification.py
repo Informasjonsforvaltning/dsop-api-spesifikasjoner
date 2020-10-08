@@ -4,13 +4,12 @@ import csv
 import json
 import sys
 from typing import Any, List
-import uuid
 
 import click
 import yaml
 
 from . import __version__
-from .catalog import Catalog
+from .catalog import API, Catalog
 
 
 @click.command()
@@ -27,6 +26,7 @@ def main(template: Any, input: Any, path: Any) -> None:
     # skipping first row, which is headers:
     next(input)
     for bank in input:
+        orgnummer = bank[0]
         # specification_filepath = path + specification_filename
         specification_filename = bank[2]
         specification_filepath = path + specification_filename
@@ -38,7 +38,7 @@ def main(template: Any, input: Any, path: Any) -> None:
             sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[4] + "<")
         spec = _generateSpec(template, bank)
         _write_spec_to_file(specification_filepath, spec)
-        _add_spec_to_catalog(specification_filename, catalog)
+        _add_spec_to_catalog(orgnummer, specification_filename, catalog)
 
     _write_catalog_file(catalog_filename, catalog)
 
@@ -54,18 +54,18 @@ def _write_spec_to_file(specification_filepath: str, spec: dict) -> None:
 
 
 def _add_spec_to_catalog(
+    orgnummer: str,
     specification_filename: str,
     catalog: Catalog,
 ) -> None:
-    id = str(uuid.uuid4())
     url = (
         "https://raw.githubusercontent.com/"
         "Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/"
         f"{specification_filename}"
     )
-    api = dict(
-        identifier=f"https://dataservice-publisher.digdir.no/dataservices/{id}", url=url
-    )
+    api = API(url)
+    api.publisher = f"https://data.brreg.no/enhetsregisteret/api/enheter/{orgnummer}"
+    api.conformsTo.append("https://data.norge.no/specification/kontoopplysninger")
     catalog.apis.append(api)
 
 
@@ -74,6 +74,7 @@ def _write_catalog_file(catalog_filename: str, catalog: Catalog) -> None:
         json.dump(
             catalog.__dict__,
             catalogfile,
+            default=lambda o: o.__dict__,
             ensure_ascii=False,
             indent=2,
         )
