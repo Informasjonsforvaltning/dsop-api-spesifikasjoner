@@ -2,6 +2,7 @@
 import copy
 import csv
 import json
+import os
 import sys
 from typing import Any, List
 
@@ -16,20 +17,33 @@ from .catalog import API, Catalog
 @click.version_option(version=__version__)
 @click.argument("template", type=click.File("r"))
 @click.argument("input", type=click.File("r"))
-@click.option("path", "--path", type=click.Path(exists=True), default="./")
-def main(template: Any, input: Any, path: Any) -> None:
-    """Write specifcation based on template for bank."""
+@click.option(
+    "-d",
+    "--directory",
+    default=".",
+    help="The output directory",
+    show_default=True,
+    type=click.Path(
+        exists=True,
+        file_okay=False,
+        writable=True,
+    ),
+)
+def main(template: Any, input: Any, directory: Any) -> None:
+    """Write specification and catalog file based on template for bank."""
+    # Add a trailing slash to directory if not there:
+    directory = os.path.join(directory, "")
     template = yaml.safe_load(template)
     input = csv.reader(input, delimiter=",")
-    catalog_filename = path + "dsop_catalog.json"
+    catalog_filename = directory + "dsop_catalog.json"
     catalog = Catalog()
     # skipping first row, which is headers:
     next(input)
     for bank in input:
         orgnummer = bank[0]
-        # specification_filepath = path + specification_filename
+        # specification_filedirectory = directory + specification_filename
         specification_filename = bank[2]
-        specification_filepath = path + specification_filename
+        specification_filedirectory = directory + specification_filename
         # Validate Prod url:
         if bank[3].endswith("/"):
             sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[3] + "<")
@@ -37,14 +51,14 @@ def main(template: Any, input: Any, path: Any) -> None:
         if bank[4].endswith("/"):
             sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[4] + "<")
         spec = _generateSpec(template, bank)
-        _write_spec_to_file(specification_filepath, spec)
+        _write_spec_to_file(specification_filedirectory, spec)
         _add_spec_to_catalog(orgnummer, specification_filename, catalog)
 
     _write_catalog_file(catalog_filename, catalog)
 
 
-def _write_spec_to_file(specification_filepath: str, spec: dict) -> None:
-    with open(specification_filepath, "w", encoding="utf-8") as outfile:
+def _write_spec_to_file(specification_filedirectory: str, spec: dict) -> None:
+    with open(specification_filedirectory, "w", encoding="utf-8") as outfile:
         json.dump(
             spec,
             outfile,
