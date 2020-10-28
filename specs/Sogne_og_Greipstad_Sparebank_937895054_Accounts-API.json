@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "description": "Open API specification of the Account APIs. (Work in progress.)\n",
+    "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
     "title": "Accounts API Søgne og Greipstad Sparebank"
   },
