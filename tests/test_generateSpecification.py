@@ -214,7 +214,7 @@ def test_main_with_no_arguments_fails(runner: CliRunner) -> None:
 # --
 def _get_openapi_template() -> Dict[str, Any]:
     """Create an openAPI-specification dokument."""
-    with open("./template/Accounts API openapi v1.0.0-RC2.yaml", "r") as file:
+    with open("./template/Accounts API openapi v1.0.0.yaml", "r") as file:
         _yaml = yaml.safe_load(file)
 
     return _yaml

@@ -4,7 +4,7 @@ A collection of openAPI specifications for the DSOP-banks.
 
 The specifications are generated based on
 
-- the master specification "Accounts API openapi v1.0.0-RC2.yaml",
+- the master specification "Accounts API openapi v1.0.0.yaml",
 - and the information in the file banker.csv
 
 A simple script is made to do the generation based on the banker.csv file and the following rules:
@@ -29,9 +29,9 @@ A simple script is made to do the generation based on the banker.csv file and th
 ```
 % git clone https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner.git
 % cd dsop-api-spesifikasjoner
-% pyenv install 3.8.6
+% pyenv install 3.9.6
 % pyenv install 3.7.9
-% pyenv local 3.8.6 3.7.9
+% pyenv local 3.9.6 3.7.9
 % poetry install
 ```
 ### Run all sessions
