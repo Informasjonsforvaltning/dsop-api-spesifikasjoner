@@ -35,26 +35,37 @@ def main(template: Any, input: Any, directory: Any) -> None:
     directory = os.path.join(directory, "")
     template = yaml.safe_load(template)
     input = csv.reader(input, delimiter=",")
-    catalog_filename = directory + "dsop_catalog.json"
-    catalog = Catalog()
+    prod_catalog_filename = directory + "dsop_catalog.json"
+    test_catalog_filename = directory + "test/" + "dsop_catalog_test.json"
+    prod_catalog = Catalog(production=True)
+    test_catalog = Catalog(production=False)
     # skipping first row, which is headers:
     next(input)
     for bank in input:
+        # print(f"bank: {bank}")
         orgnummer = bank[0]
         # specification_filedirectory = directory + specification_filename
-        specification_filename = bank[2]
-        specification_filedirectory = directory + specification_filename
         # Validate Prod url:
         if bank[3].endswith("/"):
             sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[3] + "<")
         # Validate Test url:
         if bank[4].endswith("/"):
             sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[4] + "<")
-        spec = _generateSpec(template, bank)
-        _write_spec_to_file(specification_filedirectory, spec)
-        _add_spec_to_catalog(orgnummer, specification_filename, catalog)
+        if bank[3] and len(bank[3]) > 0:  # Production
+            spec = _generateSpec(template, bank, prod=True)
+            specification_filename = bank[2]
+            specification_filedirectory = directory + specification_filename
+            _write_spec_to_file(specification_filedirectory, spec)
+            _add_spec_to_catalog(orgnummer, specification_filename, prod_catalog)
+        if bank[4] and len(bank[4]) > 0:  # Test
+            spec = _generateSpec(template, bank, prod=False)
+            specification_filename = "test/" + bank[2]
+            specification_filedirectory = directory + specification_filename
+            _write_spec_to_file(specification_filedirectory, spec)
+            _add_spec_to_catalog(orgnummer, specification_filename, test_catalog)
 
-    _write_catalog_file(catalog_filename, catalog)
+    _write_catalog_file(prod_catalog_filename, prod_catalog)
+    _write_catalog_file(test_catalog_filename, test_catalog)
 
 
 def _write_spec_to_file(specification_filedirectory: str, spec: dict) -> None:
@@ -94,7 +105,7 @@ def _write_catalog_file(catalog_filename: str, catalog: Catalog) -> None:
         )
 
 
-def _generateSpec(template: dict, bank: List[str]) -> dict:
+def _generateSpec(template: dict, bank: List[str], prod: bool) -> dict:
     """Generate spec based on template for bank."""
     # Need to do a deepcopy to actually copy the template into a new object.
     specification = copy.deepcopy(template)
@@ -103,13 +114,13 @@ def _generateSpec(template: dict, bank: List[str]) -> dict:
     # We must recreate the Server object
     specification["servers"] = []
     # Prod url
-    if len(bank[3]) > 0:
+    if prod is True:
         server = {}
         server["url"] = bank[3]
         server["description"] = "production"
         specification["servers"].append(server)
     # Test url
-    if len(bank[4]) > 0:
+    if prod is False:
         server = {}
         server["url"] = bank[4]
         server["description"] = "test"

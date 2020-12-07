@@ -9,10 +9,6 @@
     {
       "url": "https://api.instabank.no/dsop-accounts/v1",
       "description": "production"
-    },
-    {
-      "url": "https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1",
-      "description": "test"
     }
   ],
   "paths": {

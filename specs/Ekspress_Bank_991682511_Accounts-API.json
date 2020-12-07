@@ -9,10 +9,6 @@
     {
       "url": "https://apigateway.expressbank.dk/control-information/v1",
       "description": "production"
-    },
-    {
-      "url": "https://apigateway.preprod.expressbank.dk/control-information/v1",
-      "description": "test"
     }
   ],
   "paths": {

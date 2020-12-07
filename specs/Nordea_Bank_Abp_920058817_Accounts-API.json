@@ -9,10 +9,6 @@
     {
       "url": "https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1",
       "description": "production"
-    },
-    {
-      "url": "https://RB-DSOP-ARC642-NO-test01-extranet.test.nordea.com:9040/v1",
-      "description": "test"
     }
   ],
   "paths": {

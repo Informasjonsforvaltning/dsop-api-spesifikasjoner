@@ -9,10 +9,6 @@
     {
       "url": "https://publicsector.dnb.no/v1",
       "description": "production"
-    },
-    {
-      "url": "https://test.publicsector.dnb.no/v1",
-      "description": "test"
     }
   ],
   "paths": {

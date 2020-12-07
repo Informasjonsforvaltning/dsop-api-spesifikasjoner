@@ -9,10 +9,6 @@
     {
       "url": "https://apiu.danskebank.no/prod/external-unauthenticated/dsop-controlling/v1",
       "description": "production"
-    },
-    {
-      "url": "https://sandbox-apiu.danskebank.no/sandbox/external-unauth/dsop-controlling/v1",
-      "description": "test"
     }
   ],
   "paths": {

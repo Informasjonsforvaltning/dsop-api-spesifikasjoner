@@ -1,6 +1,6 @@
 """Module for Catalog class."""
+import hashlib
 from typing import List
-import uuid
 
 
 class API:
@@ -8,8 +8,7 @@ class API:
 
     def __init__(self, url: str) -> None:
         """Inits an API."""
-        id = str(uuid.uuid4())
-        self.identifier = f"https://dataservice-publisher.digdir.no/dataservices/{id}"
+        self.identifier = "https://dataservice-publisher.digdir.no/dataservices/{id}"
         self.url = url
         self.conformsTo: List[str] = []
         self.publisher = ""
@@ -18,11 +17,14 @@ class API:
 class Catalog:
     """Class representing a json dataservice catalog."""
 
-    def __init__(self) -> None:
+    def __init__(self, production: bool) -> None:
         """Inits a catalog with fixed values."""
-        id = str(uuid.uuid4())
+        catalog_title = "DSOP API katalog"
+        if not production:
+            catalog_title = catalog_title + " [TEST]"
+        id = hashlib.sha1(str.encode(catalog_title)).hexdigest()  # noqa: S303
         self.identifier = f"https://dataservice-publisher.digdir.no/catalogs/{id}"
-        self.title = {"nb": "DSOP API katalog"}
+        self.title = {"nb": catalog_title}
         self.description = {"nb": "Samling av kontoopplysnings API"}
         self.publisher = "https://data.brreg.no/enhetsregisteret/api/enheter/991825827"
         self.apis: List[API] = []

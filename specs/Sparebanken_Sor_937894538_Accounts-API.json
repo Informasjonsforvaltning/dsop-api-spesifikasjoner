@@ -9,10 +9,6 @@
     {
       "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2844",
       "description": "production"
-    },
-    {
-      "url": "https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2844",
-      "description": "test"
     }
   ],
   "paths": {

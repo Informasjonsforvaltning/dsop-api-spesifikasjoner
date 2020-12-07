@@ -9,10 +9,6 @@
     {
       "url": "https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889275",
       "description": "production"
-    },
-    {
-      "url": "https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889275",
-      "description": "test"
     }
   ],
   "paths": {

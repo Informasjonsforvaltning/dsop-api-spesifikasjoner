@@ -3,12 +3,12 @@
   "info": {
     "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
-    "title": "Accounts API Brage Finans AS"
+    "title": "Accounts API SPAREBANK 1 MODUM"
   },
   "servers": [
     {
-      "url": "https://debtinfohub.brage.no/dsop-service/api/v1",
-      "description": "production"
+      "url": "https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889186",
+      "description": "test"
     }
   ],
   "paths": {

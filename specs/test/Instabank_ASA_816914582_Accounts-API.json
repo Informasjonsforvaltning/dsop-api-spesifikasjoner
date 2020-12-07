@@ -3,12 +3,12 @@
   "info": {
     "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
-    "title": "Accounts API Brage Finans AS"
+    "title": "Accounts API Instabank ASA"
   },
   "servers": [
     {
-      "url": "https://debtinfohub.brage.no/dsop-service/api/v1",
-      "description": "production"
+      "url": "https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1",
+      "description": "test"
     }
   ],
   "paths": {

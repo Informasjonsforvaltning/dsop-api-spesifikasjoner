@@ -1,0 +1,252 @@
+{
+  "identifier": "https://dataservice-publisher.digdir.no/catalogs/6071cb9b1ec01bd2748130ab212d7c04650b1cde",
+  "title": {
+    "nb": "DSOP API katalog [TEST]"
+  },
+  "description": {
+    "nb": "Samling av kontoopplysnings API"
+  },
+  "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/991825827",
+  "apis": [
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_837884942_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/837884942"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_920426530_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/920426530"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937888015_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937888015"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937888104_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937888104"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889186_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937889186"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889275_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937889275"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889631_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937889631"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937891334_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937891334"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937895321_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937895321"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937899408_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937899408"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937899785_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937899785"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937901003_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937901003"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_944521836_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/944521836"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_952706365_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/952706365"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/DNB_984851006_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/984851006"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Nordea_Bank_Abp_920058817_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/920058817"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Komplett_Bank_998997801_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/998997801"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Bank_Norwegian_AS_991455671_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/991455671"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank_68_grader_Nord_937905378_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937905378"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebanken_Sor_937894538_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/937894538"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Handelsbanken_971171324_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/971171324"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sbanken_915287700_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/915287700"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Kredd_AS_917135428_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/917135428"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Brage_Finans_AS_995610760_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/995610760"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Danske_Bank_977074010_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/977074010"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Instabank_ASA_816914582_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/816914582"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Bluestep_Bank_AB_Filial_Oslo_995268841_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/995268841"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Ekspress_Bank_991682511_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/991682511"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Nordax_Bank_AB_916573154_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/916573154"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/BRAbank_ASA_986144706_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/986144706"
+    }
+  ]
+}
