@@ -89,7 +89,7 @@ def _add_spec_to_catalog(
         f"{specification_filename}"
     )
     api = API(url)
-    api.publisher = f"https://data.brreg.no/enhetsregisteret/api/enheter/{orgnummer}"
+    api.publisher = f"https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/{orgnummer}"
     api.conformsTo.append("https://data.norge.no/specification/kontoopplysninger")
     catalog.apis.append(api)
 

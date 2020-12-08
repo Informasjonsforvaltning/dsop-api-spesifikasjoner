@@ -121,11 +121,11 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "description": {
             "nb": "Samling av kontoopplysnings API"
           },
-          "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/991825827",
+          "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
             "identifier": "https://dataservice-publisher.digdir.no/dataservices/1234",
-            "publisher": "https://data.brreg.no/enhetsregisteret/api/enheter/837884942",
+            "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
                "https://data.norge.no/specification/kontoopplysninger"
