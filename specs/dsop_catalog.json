@@ -866,14 +866,6 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json",
-      "conformsTo": [
-        "https://data.norge.no/specification/kontoopplysninger"
-      ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/946670081"
-    },
-    {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/KLP_Banken_AS_993821837_Accounts-API.json",
       "conformsTo": [
         "https://data.norge.no/specification/kontoopplysninger"
