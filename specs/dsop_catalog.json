@@ -706,14 +706,6 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Kredd_AS_917135428_Accounts-API.json",
-      "conformsTo": [
-        "https://data.norge.no/specification/kontoopplysninger"
-      ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/917135428"
-    },
-    {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/BN_Bank_914864445_Accounts-API.json",
       "conformsTo": [
         "https://data.norge.no/specification/kontoopplysninger"
