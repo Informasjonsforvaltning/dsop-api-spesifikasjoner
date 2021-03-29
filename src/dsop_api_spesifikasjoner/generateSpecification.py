@@ -3,6 +3,7 @@ import copy
 import csv
 import json
 import os
+from pathlib import Path
 import sys
 from typing import Any, List
 
@@ -35,32 +36,39 @@ def main(template: Any, input: Any, directory: Any) -> None:
     directory = os.path.join(directory, "")
     template = yaml.safe_load(template)
     input = csv.reader(input, delimiter=",")
-    prod_catalog_filename = directory + "dsop_catalog.json"
-    test_catalog_filename = directory + "test/" + "dsop_catalog_test.json"
+    prod_catalog_filename = os.path.join(directory, "dsop_catalog.json")
+    Path("test").mkdir(parents=True, exist_ok=True)
+    test_catalog_filename = os.path.join(directory, "test", "dsop_catalog_test.json")
     prod_catalog = Catalog(production=True)
     test_catalog = Catalog(production=False)
     # skipping first row, which is headers:
     next(input)
     for bank in input:
-        # print(f"bank: {bank}")
         orgnummer = bank[0]
-        # specification_filedirectory = directory + specification_filename
-        # Validate Prod url:
-        if bank[3].endswith("/"):
-            sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[3] + "<")
-        # Validate Test url:
-        if bank[4].endswith("/"):
-            sys.exit("ERROR: Trailing slash in url is not allowed >" + bank[4] + "<")
         if bank[3] and len(bank[3]) > 0:  # Production
-            spec = _generateSpec(template, bank, prod=True)
+            # Validate Prod url:
+            if bank[3].endswith("/"):
+                sys.exit(
+                    "ERROR: Trailing slash in url is not allowed >" + bank[3] + "<"
+                )
+            spec = _generateSpec(template, bank, production=True)
             specification_filename = bank[2]
-            specification_filedirectory = directory + specification_filename
+            specification_filedirectory = os.path.join(
+                directory, specification_filename
+            )
             _write_spec_to_file(specification_filedirectory, spec)
             _add_spec_to_catalog(orgnummer, specification_filename, prod_catalog)
         if bank[4] and len(bank[4]) > 0:  # Test
-            spec = _generateSpec(template, bank, prod=False)
-            specification_filename = "test/" + bank[2]
-            specification_filedirectory = directory + specification_filename
+            # Validate Test url:
+            if bank[4].endswith("/"):
+                sys.exit(
+                    "ERROR: Trailing slash in url is not allowed >" + bank[4] + "<"
+                )
+            spec = _generateSpec(template, bank, production=False)
+            specification_filename = os.path.join("test", bank[2])
+            specification_filedirectory = os.path.join(
+                directory, specification_filename
+            )
             _write_spec_to_file(specification_filedirectory, spec)
             _add_spec_to_catalog(orgnummer, specification_filename, test_catalog)
 
@@ -89,7 +97,7 @@ def _add_spec_to_catalog(
         f"{specification_filename}"
     )
     api = API(url)
-    api.publisher = f"https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/{orgnummer}"
+    api.publisher = f"https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/{orgnummer}"  # noqa: B950
     api.conformsTo.append("https://data.norge.no/specification/kontoopplysninger")
     catalog.apis.append(api)
 
@@ -105,7 +113,7 @@ def _write_catalog_file(catalog_filename: str, catalog: Catalog) -> None:
         )
 
 
-def _generateSpec(template: dict, bank: List[str], prod: bool) -> dict:
+def _generateSpec(template: dict, bank: List[str], production: bool) -> dict:
     """Generate spec based on template for bank."""
     # Need to do a deepcopy to actually copy the template into a new object.
     specification = copy.deepcopy(template)
@@ -114,13 +122,13 @@ def _generateSpec(template: dict, bank: List[str], prod: bool) -> dict:
     # We must recreate the Server object
     specification["servers"] = []
     # Prod url
-    if prod is True:
+    if production is True:
         server = {}
         server["url"] = bank[3]
         server["description"] = "production"
         specification["servers"].append(server)
     # Test url
-    if prod is False:
+    if production is False:
         server = {}
         server["url"] = bank[4]
         server["description"] = "test"

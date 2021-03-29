@@ -1,5 +1,6 @@
 """Unit test cases for the generateSpecification module."""
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -29,7 +30,7 @@ def test_generateSpec() -> None:
     template = _get_openapi_template()
     bank = _get_bank()
 
-    _spec = _generateSpec(template, bank)
+    _spec = _generateSpec(template, bank, production=True)
 
     assert isinstance(_spec, dict)
     assert _spec["info"]["title"] == "Accounts API SPAREBANK 1 ØSTFOLD AKERSHUS"
@@ -37,18 +38,17 @@ def test_generateSpec() -> None:
     assert (
         _spec["servers"][0]["url"] == "https://api.sparebank1.no/Service/v2/837884942"
     )
-    assert _spec["servers"][1]["description"] == "test"
+
+    _spec = _generateSpec(template, bank, production=False)
+    assert _spec["servers"][0]["description"] == "test"
     assert (
-        _spec["servers"][1]["url"]
+        _spec["servers"][0]["url"]
         == "https://api-test.sparebank1.no/Service/v2/837884942"
     )
 
 
 def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
     """Should return exit_code 0."""
-    # Set up mock for uuid4:
-    mocker.patch("uuid.uuid4", return_value=1234)
-
     with runner.isolated_filesystem():
         with open("banker.csv", "w") as f:
             f.write("OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest\n")
@@ -65,17 +65,15 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
             t.write("  title: Accounts API\n")
             t.write("servers:\n")
             t.write("  - url: 'https://hostname.no/v1'\n")
-            t.write("    description: 'production'\n")
-            t.write("  - url: 'https://hostname.no/v1'\n")
-            t.write("    description: 'test'\n")
 
         result = runner.invoke(main, ["template.yaml", "banker.csv"])
         assert result.output == ""
         assert result.exit_code == 0
-        # check that a specification file has been created and has correct content:
+
+        # Specification-file for prod-environment
         specification_file = Path("Sparebank1_837884942_Accounts-API.json")
         assert specification_file.is_file()
-        with open("Sparebank1_837884942_Accounts-API.json", "r") as s:
+        with open(specification_file, "r") as s:
             _specification = json.load(s)
         _correct_specification = json.loads(
             """
@@ -88,7 +86,37 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
               {
                  "description": "production",
                  "url": "https://api.sparebank1.no/dsop/Service/v2/837884942"
-              },
+              }
+           ]
+        }
+        """
+        )
+        ddiff = DeepDiff(
+            _specification,
+            _correct_specification,
+            ignore_order=True,
+            report_repetition=True,
+        )
+        if ddiff:
+            print(ddiff)
+        assert not ddiff
+
+        # Specification-file for test-environment
+        specification_filename = os.path.join(
+            "test", "Sparebank1_837884942_Accounts-API.json"
+        )
+        specification_file = Path(specification_filename)
+        assert specification_file.is_file()
+        with open(specification_file, "r") as s:
+            _specification = json.load(s)
+        _correct_specification = json.loads(
+            """
+        {
+           "openapi": "3.0.0",
+           "info": {
+              "title": "Accounts API SPAREBANK 1 ØSTFOLD AKERSHUS"
+           },
+           "servers": [
               {
                  "description": "test",
                  "url": "https://api-test.sparebank1.no/dsop/Service/v2/837884942"
@@ -107,14 +135,15 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
             print(ddiff)
         assert not ddiff
 
-        # check that a dsop_catalog.json file has been created and has correct content:
-        catalog_file = Path("dsop_catalog.json")
+        # check that a prod dsop_catalog.json file has been created and has correct content:
+        catalog_filename = "dsop_catalog.json"
+        catalog_file = Path(catalog_filename)
         assert catalog_file.is_file()
-        with open("dsop_catalog.json", "r") as c:
+        with open(catalog_file, "r") as c:
             _catalog = json.load(c)
         _correct_catalog_string = """
         {
-          "identifier": "https://dataservice-publisher.digdir.no/catalogs/1234",
+          "identifier": "https://dataservice-publisher.digdir.no/catalogs/2d795f2e16757134b064f2a5cfa4ec9a2f85fa36",
           "title": {
             "nb": "DSOP API katalog"
           },
@@ -124,7 +153,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
-            "identifier": "https://dataservice-publisher.digdir.no/dataservices/1234",
+            "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
             "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
@@ -135,6 +164,48 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
         }
         """ % (
             URL_BASE + "Sparebank1_837884942_Accounts-API.json"
+        )
+        print(_correct_catalog_string)
+        _correct_catalog = json.loads(_correct_catalog_string)
+        ddiff = DeepDiff(
+            _catalog,
+            _correct_catalog,
+            ignore_order=True,
+            report_repetition=True,
+        )
+        if ddiff:
+            print(ddiff)
+        assert not ddiff
+
+        # check that a test dsop_catalog.json file has been created and has correct content:
+        catalog_filename = os.path.join("test", "dsop_catalog_test.json")
+        catalog_file = Path(catalog_filename)
+        assert catalog_file.is_file()
+        with open(catalog_file, "r") as c:
+            _catalog = json.load(c)
+        _correct_catalog_string = """
+        {
+          "identifier": "https://dataservice-publisher.digdir.no/catalogs/6071cb9b1ec01bd2748130ab212d7c04650b1cde",
+          "title": {
+            "nb": "DSOP API katalog [TEST]"
+          },
+          "description": {
+            "nb": "Samling av kontoopplysnings API"
+          },
+          "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
+          "apis": [
+           {
+            "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+            "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
+            "url": "%s",
+            "conformsTo": [
+               "https://data.norge.no/specification/kontoopplysninger"
+            ]
+           }
+          ]
+        }
+        """ % (
+            URL_BASE + "test/" + "Sparebank1_837884942_Accounts-API.json"
         )
         print(_correct_catalog_string)
         _correct_catalog = json.loads(_correct_catalog_string)
