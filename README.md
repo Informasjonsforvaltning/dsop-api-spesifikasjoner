@@ -51,3 +51,7 @@ Alternatively you can use `poetry run`:
 ```
 % poetry run dsop_api_spesifikasjoner --help
 ```
+Example:
+```
+% dsop_api_spesifikasjoner -d specs template/Accounts\ API\ openapi\ v1.0.0.yaml banker.csv
+```

@@ -247,6 +247,14 @@
         "https://data.norge.no/specification/kontoopplysninger"
       ],
       "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/986144706"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/TF_Bank_Norge_923194592_Accounts-API.json",
+      "conformsTo": [
+        "https://data.norge.no/specification/kontoopplysninger"
+      ],
+      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/923194592"
     }
   ]
 }
