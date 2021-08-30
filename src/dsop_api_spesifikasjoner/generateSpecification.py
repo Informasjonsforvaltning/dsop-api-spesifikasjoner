@@ -98,7 +98,7 @@ def _add_spec_to_catalog(
     )
     api = API(url)
     api.publisher = f"https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/{orgnummer}"  # noqa: B950
-    api.conformsTo.append("https://data.norge.no/specification/kontoopplysninger")
+    api.conformsTo.append("https://bitsnorge.github.io/dsop-accounts-api/")
     catalog.apis.append(api)
 
 
