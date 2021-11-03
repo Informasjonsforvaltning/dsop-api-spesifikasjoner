@@ -19,14 +19,17 @@ A simple script is made to do the generation based on the banker.csv file and th
   - the name of the master specification file.
 
 ## Development
+
 ### Requirements
+
 - python3
 - [pyenv](https://github.com/pyenv/pyenv) (recommended)
 - [poetry](https://python-poetry.org/)
 - [nox](https://nox.thea.codes/en/stable/)
 
 ### Install
-```
+
+```shell
 % git clone https://github.com/Informasjonsforvaltning/dsop-api-spesifikasjoner.git
 % cd dsop-api-spesifikasjoner
 % pyenv install 3.9.6
@@ -34,24 +37,35 @@ A simple script is made to do the generation based on the banker.csv file and th
 % pyenv local 3.9.6 3.7.9
 % poetry install
 ```
+
 ### Run all sessions
-```
+
+```shell
 % nox
 ```
+
 ### Run all tests with coverage reporting
-```
+
+```shell
 % nox -rs tests
+
 ```
+
 ## Run cli script
-```
+
+```shell
 % poetry shell
 % dsop_api_spesifikasjoner --help
-```
+
+```shell
 Alternatively you can use `poetry run`:
-```
+
+```shell
 % poetry run dsop_api_spesifikasjoner --help
 ```
+
 Example:
-```
+
+```shell
 % dsop_api_spesifikasjoner -d specs template/Accounts\ API\ openapi\ v1.0.0.yaml banker.csv
 ```
