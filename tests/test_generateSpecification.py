@@ -157,7 +157,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
             "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
-               "https://bitsnorge.github.io/dsop-accounts-api/"
+               "https://bitsnorge.github.io/dsop-accounts-api"
             ]
            }
           ]
@@ -199,7 +199,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
             "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
-               "https://bitsnorge.github.io/dsop-accounts-api/"
+               "https://bitsnorge.github.io/dsop-accounts-api"
             ]
            }
           ]
