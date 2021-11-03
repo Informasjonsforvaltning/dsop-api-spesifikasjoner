@@ -98,7 +98,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937895054,Søgne og Greipstad Sparebank,Sogne_og_Greipstad_Sparebank_937895054_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3090,
 937897286,Voss Sparebank,Voss_Sparebank_937897286_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3489,
 990323429,Gjensidige Bank,Gjensidige_Bank_990323429_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9776,
-937904029,Helgeland Sparebank,Helgeland_Sparebank_937904029_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4519,
+937904029,Helgeland Sparebank,Helgeland_Sparebank_937904029_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937904029,
 980374181,Landkreditt Bank,Landkreditt_Bank_980374181_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9360,
 911986884,OBOS-banken,OBOS-banken_911986884_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9824,
 937899319,Sparebanken Møre,Sparebanken_More_937899319_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3914,

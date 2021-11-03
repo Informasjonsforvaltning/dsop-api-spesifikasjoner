@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4519",
+      "url": "https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937904029",
       "description": "production"
     }
   ],
