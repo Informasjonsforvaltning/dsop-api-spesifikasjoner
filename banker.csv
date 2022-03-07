@@ -116,3 +116,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 986144706,BRAbank ASA,BRAbank_ASA_986144706_Accounts-API.json,https://externalcontrolapi.brabank.no/v1,https://externalcontrolapi.bralabs.no/v1
 923194592,TF Bank Norge,TF_Bank_Norge_923194592_Accounts-API.json,,https://artemisapitest.tfbank.se/bits/v1
 975963748,Sparebank 1 Finans Østlandet AS,Sparebank_1_Finans_Østlandet_AS_975963748_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975963748,
+938521549,Sparebank 1 Finans Midt Norge AS,Sparebank_1_Finans_Midt_Norge_AS_938521549_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/938521549,
