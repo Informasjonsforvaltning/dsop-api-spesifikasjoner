@@ -919,6 +919,14 @@
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
       "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/975963748"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Midt_Norge_AS_938521549_Accounts-API.json",
+      "conformsTo": [
+        "https://bitsnorge.github.io/dsop-accounts-api"
+      ],
+      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/938521549"
     }
   ]
 }
