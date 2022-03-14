@@ -927,6 +927,14 @@
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
       "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937895321"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Nord-Norge_AS_930050237_Accounts-API.json",
+      "conformsTo": [
+        "https://bitsnorge.github.io/dsop-accounts-api"
+      ],
+      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/930050237"
     }
   ]
 }
