@@ -10,7 +10,7 @@ def test_Catalog_init(
     mocker: MockerFixture,
 ) -> None:
     """Should return a catalog instance with default values."""
-    _id = hashlib.sha1(str.encode("DSOP API katalog"))  # noqa: S303
+    _id = hashlib.sha1(str.encode("DSOP API katalog"))  # noqa: S303,S324
     mocker.patch("hashlib.sha1", return_value=_id)
     _str_id = _id.hexdigest()
     catalog = Catalog(production=True)

@@ -22,7 +22,7 @@ class Catalog:
         catalog_title = "DSOP API katalog"
         if not production:
             catalog_title = catalog_title + " [TEST]"
-        id = hashlib.sha1(str.encode(catalog_title)).hexdigest()  # noqa: S303
+        id = hashlib.sha1(str.encode(catalog_title)).hexdigest()  # noqa: S303,S324
         self.identifier = f"https://dataservice-publisher.digdir.no/catalogs/{id}"
         self.title = {"nb": catalog_title}
         self.description = {"nb": "Samling av kontoopplysnings API"}
