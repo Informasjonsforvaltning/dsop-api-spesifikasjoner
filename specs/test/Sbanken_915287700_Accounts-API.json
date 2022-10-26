@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api-sbx.sbanken.no/exec.dsop/api/v1",
+      "url": "https://dsop-sandbox.sbanken.no/api/v1",
       "description": "test"
     }
   ],

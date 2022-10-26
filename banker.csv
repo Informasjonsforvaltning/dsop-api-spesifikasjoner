@@ -19,7 +19,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937905378,"Sparebank 68 grader Nord",Sparebank_68_grader_Nord_937905378_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937905378,https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378
 937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2844,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2844
 971171324,"Handelsbanken",Handelsbanken_971171324_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9057,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9057
-915287700,"Sbanken",Sbanken_915287700_Accounts-API.json,https://api.sbanken.no/exec.dsop/api/v1,https://api-sbx.sbanken.no/exec.dsop/api/v1,
+915287700,"Sbanken",Sbanken_915287700_Accounts-API.json,https://api.sbanken.no/exec.dsop/api/v1,https://dsop-sandbox.sbanken.no/api/v1,
 937903502,Aasen Sparebank,Aasen_Sparebank_937903502_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937903502,
 937890540,Andebu Sparebank,Andebu_Sparebank_937890540_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937890540,
 937894082,Arendal og Omegns Sparekasse,Arendal_og_Omegns_Sparekasse_937894082_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894082,
