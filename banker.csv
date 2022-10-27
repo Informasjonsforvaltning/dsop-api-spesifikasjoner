@@ -118,3 +118,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 938521549,Sparebank 1 Finans Midt Norge AS,Sparebank_1_Finans_Midt_Norge_AS_938521549_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/938521549,
 937895321,SPAREBANK 1 SR-BANK ASA,SPAREBANK_1_SR-BANK_ASA_937895321_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937895321,
 930050237,Sparebank 1 Finans Nord-Norge AS,Sparebank_1_Finans_Nord-Norge_AS_930050237_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/930050237,
+975966453,SPAREBANK 1 KREDITT AS,Sparebank_1_KREDITT_AS_975966453_Accounts-API.json,,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975966453
