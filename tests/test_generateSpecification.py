@@ -150,11 +150,11 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "description": {
             "nb": "Samling av kontoopplysnings API"
           },
-          "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
+          "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
             "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-            "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
+            "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
                "https://bitsnorge.github.io/dsop-accounts-api"
@@ -192,11 +192,11 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "description": {
             "nb": "Samling av kontoopplysnings API"
           },
-          "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
+          "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
             "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-            "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942",
+            "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
                "https://bitsnorge.github.io/dsop-accounts-api"

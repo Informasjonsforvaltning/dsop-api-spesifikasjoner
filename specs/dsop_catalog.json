@@ -6,7 +6,7 @@
   "description": {
     "nb": "Samling av kontoopplysnings API"
   },
-  "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827",
+  "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
   "apis": [
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -14,7 +14,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837884942"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -22,7 +22,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/920426530"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920426530"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -30,7 +30,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937888015"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888015"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -38,7 +38,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937888104"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888104"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -46,7 +46,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937889186"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889186"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -54,7 +54,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937889275"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889275"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -62,7 +62,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937889631"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889631"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -70,7 +70,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937891334"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891334"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -78,7 +78,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937899408"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899408"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -86,7 +86,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937899785"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899785"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -94,7 +94,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937901003"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901003"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -102,7 +102,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/944521836"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/944521836"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -110,7 +110,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/952706365"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/952706365"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -118,7 +118,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/984851006"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/984851006"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -126,7 +126,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/920058817"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920058817"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -134,7 +134,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/998997801"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/998997801"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -142,7 +142,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991455671"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991455671"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -150,7 +150,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937905378"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937905378"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -158,7 +158,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894538"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894538"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -166,7 +166,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971171324"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971171324"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -174,7 +174,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/915287700"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915287700"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -182,7 +182,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937903502"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903502"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -190,7 +190,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937890540"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890540"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -198,7 +198,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894082"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894082"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -206,7 +206,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885199"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885199"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -214,7 +214,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885644"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885644"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -222,7 +222,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/988257133"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/988257133"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -230,7 +230,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885288"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885288"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -238,7 +238,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991853995"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991853995"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -246,7 +246,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937893833"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893833"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -254,7 +254,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902085"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902085"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -262,7 +262,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837886252"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837886252"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -270,7 +270,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937891601"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891601"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -278,7 +278,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937884494"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884494"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -286,7 +286,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937888570"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888570"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -294,7 +294,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894171"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894171"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -302,7 +302,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/985750378"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/985750378"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -310,7 +310,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937904673"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904673"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -318,7 +318,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937903146"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903146"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -326,7 +326,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937886705"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886705"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -334,7 +334,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837902622"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837902622"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -342,7 +342,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937903235"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903235"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -350,7 +350,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902174"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902174"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -358,7 +358,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937893299"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893299"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -366,7 +366,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937896581"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896581"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -374,7 +374,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885822"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885822"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -382,7 +382,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937889097"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889097"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -390,7 +390,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/982719445"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982719445"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -398,7 +398,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937895976"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895976"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -406,7 +406,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894805"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894805"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -414,7 +414,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937890729"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890729"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -422,7 +422,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885911"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885911"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -430,7 +430,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937884672"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884672"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -438,7 +438,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937901291"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901291"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -446,7 +446,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902719"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902719"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -454,7 +454,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937887043"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887043"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -462,7 +462,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/955008863"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/955008863"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -470,7 +470,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937901569"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901569"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -478,7 +478,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/947278770"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/947278770"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -486,7 +486,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937900953"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900953"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -494,7 +494,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937900775"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900775"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -502,7 +502,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/956548888"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/956548888"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -510,7 +510,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/915691161"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915691161"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -518,7 +518,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937901836"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901836"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -526,7 +526,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937891245"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891245"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -534,7 +534,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837889812"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837889812"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -542,7 +542,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837897912"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837897912"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -550,7 +550,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902263"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902263"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -558,7 +558,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937891512"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891512"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -566,7 +566,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937903979"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903979"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -574,7 +574,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902352"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902352"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -582,7 +582,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937886160"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886160"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -590,7 +590,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937899963"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899963"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -598,7 +598,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937900031"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900031"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -606,7 +606,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937891423"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891423"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -614,7 +614,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/816793432"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816793432"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -622,7 +622,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937887787"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887787"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -630,7 +630,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937885377"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885377"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -638,7 +638,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937897375"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897375"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -646,7 +646,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937888759"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888759"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -654,7 +654,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937893922"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893922"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -662,7 +662,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/817244742"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/817244742"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -670,7 +670,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937901925"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901925"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -678,7 +678,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837900212"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837900212"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -686,7 +686,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894260"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894260"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -694,7 +694,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937902441"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902441"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -702,7 +702,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/914864445"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/914864445"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -710,7 +710,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937897464"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897464"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -718,7 +718,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894627"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894627"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -726,7 +726,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/837895502"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837895502"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -734,7 +734,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937893655"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893655"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -742,7 +742,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937898614"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937898614"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -750,7 +750,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937896670"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896670"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -758,7 +758,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937894716"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894716"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -766,7 +766,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937895054"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895054"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -774,7 +774,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937897286"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897286"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -782,7 +782,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/990323429"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/990323429"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -790,7 +790,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937904029"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904029"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -798,7 +798,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/980374181"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/980374181"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -806,7 +806,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/911986884"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/911986884"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -814,7 +814,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937899319"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899319"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -822,7 +822,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/832554332"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/832554332"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -830,7 +830,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937896859"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896859"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -838,7 +838,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/916012683"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916012683"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -846,7 +846,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/953299216"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/953299216"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -854,7 +854,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/993821837"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/993821837"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -862,7 +862,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/995610760"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/995610760"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -870,7 +870,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/977074010"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/977074010"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -878,7 +878,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/816914582"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816914582"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -886,7 +886,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991682511"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991682511"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -894,7 +894,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/916573154"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916573154"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -902,7 +902,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/986144706"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/986144706"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -910,7 +910,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/975963748"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975963748"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -918,7 +918,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/938521549"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/938521549"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -926,7 +926,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/937895321"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895321"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
@@ -934,7 +934,7 @@
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
-      "publisher": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/930050237"
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/930050237"
     }
   ]
 }
