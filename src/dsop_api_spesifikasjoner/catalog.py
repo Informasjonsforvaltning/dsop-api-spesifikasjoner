@@ -26,5 +26,5 @@ class Catalog:
         self.identifier = f"https://dataservice-publisher.digdir.no/catalogs/{id}"
         self.title = {"nb": catalog_title}
         self.description = {"nb": "Samling av kontoopplysnings API"}
-        self.publisher = "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827"  # noqa: B950
+        self.publisher = "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827"  # noqa: B950
         self.apis: List[API] = []
