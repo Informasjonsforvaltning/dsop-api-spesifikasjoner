@@ -15,7 +15,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 984851006,DNB,DNB_984851006_Accounts-API.json,https://publicsector.dnb.no/v1,https://test.publicsector.dnb.no/v1
 920058817,"Nordea Bank Abp, filial i Norge",Nordea_Bank_Abp_920058817_Accounts-API.json,https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1,https://RB-DSOP-ARC642-NO-test01-extranet.test.nordea.com:9040/v1
 998997801,"Komplett Bank AS",Komplett_Bank_998997801_Accounts-API.json,https://eoppslag.online.komplettbank.no/v1,https://eoppslag.onlineservices.komplettbank.no/pp/v1
-991455671,"Bank Norwegian AS",Bank_Norwegian_AS_991455671_Accounts-API.json,https://api.banknorwegian.no/dsop/v1,https://api.test.banknorwegian.no/dsop/v1
+991455671,"Bank Norwegian AS",Bank_Norwegian_AS_991455671_Accounts-API.json,,
 937905378,"Sparebank 68 grader Nord",Sparebank_68_grader_Nord_937905378_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937905378,https://api-proxy.test.sdc.dk/api/dsop-accounts-api/v1/banks/937905378
 937894538,"Sparebanken Sør",Sparebanken_Sor_937894538_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2844,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/2844
 971171324,"Handelsbanken",Handelsbanken_971171324_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9057,https://esb-internet.preprod.evry.com/secesb/rest/era-dsop/v1/9057
@@ -111,7 +111,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 816914582,Instabank ASA,Instabank_ASA_816914582_Accounts-API.json,https://api.instabank.no/dsop-accounts/v1,https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1
 995268841,Bluestep Bank AB Filial Oslo,Bluestep_Bank_AB_Filial_Oslo_995268841_Accounts-API.json,,https://api-test.bluestep.se/koko/api/v1
 991682511,Ekspress Bank,Ekspress_Bank_991682511_Accounts-API.json,https://apigateway.expressbank.dk/control-information/v1,https://apigateway.preprod.expressbank.dk/control-information/v1
-916573154,Nordax Bank AB (PUBL),Nordax_Bank_AB_916573154_Accounts-API.json,https://partner.nordax.com/DSOP/v1,https://partner.preprod.nordax.com/DSOP/v1
+916573154,Nordax Bank AB (PUBL),Nordax_Bank_AB_916573154_Accounts-API.json,,
 986144706,BRAbank ASA,BRAbank_ASA_986144706_Accounts-API.json,https://externalcontrolapi.brabank.no/v1,https://externalcontrolapi.bralabs.no/v1
 923194592,TF Bank Norge,TF_Bank_Norge_923194592_Accounts-API.json,,https://artemisapitest.tfbank.se/bits/v1
 975963748,Sparebank 1 Finans Østlandet AS,Sparebank_1_Finans_Østlandet_AS_975963748_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975963748,

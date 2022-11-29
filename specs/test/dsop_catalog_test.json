@@ -138,14 +138,6 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Bank_Norwegian_AS_991455671_Accounts-API.json",
-      "conformsTo": [
-        "https://bitsnorge.github.io/dsop-accounts-api"
-      ],
-      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991455671"
-    },
-    {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank_68_grader_Nord_937905378_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -223,14 +215,6 @@
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991682511"
-    },
-    {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Nordax_Bank_AB_916573154_Accounts-API.json",
-      "conformsTo": [
-        "https://bitsnorge.github.io/dsop-accounts-api"
-      ],
-      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916573154"
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
