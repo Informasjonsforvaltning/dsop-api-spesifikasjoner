@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.sbanken.no/exec.dsop/api/v1",
+      "url": "https://dsop.sbanken.no/api/v1",
       "description": "production"
     }
   ],
