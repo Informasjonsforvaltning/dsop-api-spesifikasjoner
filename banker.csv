@@ -50,7 +50,7 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937895976,Jæren Sparebank,Jeren_Sparebank_937895976_Accounts-API.json,,
 937894805,Kvinesdal Sparebank,Kvinesdal_Sparebank_937894805_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894805,
 937890729,Larvikbanken - Din Personlige Sparebank,Larvikbanken_-_Din_Personlige_Sparebank_937890729_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937890729,
-937885911,Lillestrøm Sparebank,Lillestrom_Sparebank_937885911_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937885911,
+937885911,Romerike Sparebank,Romerike_Sparebank_937885911_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937885911,
 937884672,Marker Sparebank,Marker_Sparebank_937884672_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937884672,
 937901291,Melhus Sparebank,Melhus_Sparebank_937901291_Accounts-API.json,,
 937902719,Nidaros Sparebank,Nidaros_Sparebank_937902719_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937902719,
