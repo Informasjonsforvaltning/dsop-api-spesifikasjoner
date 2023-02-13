@@ -738,6 +738,14 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Ost_937888937_Accounts-API.json",
+      "conformsTo": [
+        "https://bitsnorge.github.io/dsop-accounts-api"
+      ],
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888937"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Vest_832554332_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
