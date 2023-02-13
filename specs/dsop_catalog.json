@@ -847,6 +847,14 @@
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/930050237"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_KREDITT_AS_975966453_Accounts-API.json",
+      "conformsTo": [
+        "https://bitsnorge.github.io/dsop-accounts-api"
+      ],
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975966453"
     }
   ]
 }
