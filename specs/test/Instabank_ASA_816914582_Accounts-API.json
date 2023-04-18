@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.instabank-no.openapi-test.banqsoft.com/dsop-accounts/v1",
+      "url": "https://central.services-test.banqsoft.com/dsopkontroll/v1",
       "description": "test"
     }
   ],
