@@ -3,12 +3,12 @@
   "info": {
     "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
-    "title": "Accounts API Komplett Bank AS"
+    "title": "Accounts API Morrow Bank ASA"
   },
   "servers": [
     {
-      "url": "https://eoppslag.onlineservices.komplettbank.no/pp/v1",
-      "description": "test"
+      "url": "https://eoppslag.online.komplettbank.no/v1",
+      "description": "production"
     }
   ],
   "paths": {
