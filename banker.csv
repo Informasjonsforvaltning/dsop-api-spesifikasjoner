@@ -112,3 +112,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 930050237,Sparebank 1 Finans Nord-Norge AS,Sparebank_1_Finans_Nord-Norge_AS_930050237_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/930050237,
 975966453,SPAREBANK 1 KREDITT AS,Sparebank_1_KREDITT_AS_975966453_Accounts-API.json,https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975966453,https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975966453,
 984150865,Resurs bank AB,Resurs_bank_AB_984150865_Accounts-API.json,,https://apigw-integration.test.resurs.loc/api/dsop_account_service
+946670081,Sparebanken Sogn og Fjordane,Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3702,
