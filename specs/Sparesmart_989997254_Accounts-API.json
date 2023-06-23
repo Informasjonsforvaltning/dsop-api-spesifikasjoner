@@ -3,11 +3,11 @@
   "info": {
     "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
-    "title": "Accounts API Åfjord Sparebank"
+    "title": "Accounts API Sparesmart (En del av Eika Kredittbank)"
   },
   "servers": [
     {
-      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4348",
+      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9815",
       "description": "production"
     }
   ],
