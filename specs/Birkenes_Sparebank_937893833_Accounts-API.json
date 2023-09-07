@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937893833",
+      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2884",
       "description": "production"
     }
   ],
