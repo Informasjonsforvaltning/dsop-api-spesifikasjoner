@@ -930,7 +930,7 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hemne_Sparebank_937902174_Accounts-API.json",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trondelag_Sparebank_937902174_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],

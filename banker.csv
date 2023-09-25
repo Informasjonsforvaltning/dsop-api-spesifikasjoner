@@ -75,7 +75,6 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937901925,Ørland Sparebank,Orland_Sparebank_937901925_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937901925,
 837900212,Ørskog Sparebank,Orskog_Sparebank_837900212_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4064,
 937894260,Agder Sparebank,Agder_Sparebank_937894260_Accounts-API.json,https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894260,
-937902441,Åfjord Sparebank,Afjord_Sparebank_937902441_Accounts-API.json,,
 917135428,Kredd AS,Kredd_AS_917135428_Accounts-API.json,,https://api-test.kredd.it/kok/v1
 914864445,BN Bank,BN_Bank_914864445_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9236,
 937897464,Etne Sparebank,Etne_Sparebank_937897464_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3543,
@@ -119,6 +118,6 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest
 937900953,Rindal Sparebank,Rindal_Sparebank_937900953_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4113,
 937901569,Oppdalsbanken,Oppdalsbanken_937901569_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4269,
 947278770,Orkla Sparebank,Orkdal_Sparebank_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4274,
-937902174,Hemne Sparebank(Trøndelag Sparebank),Hemne_Sparebank_937902174_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4314,
+937902174,Trøndelag Sparebank,Trondelag_Sparebank_937902174_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4314,
 937903979,Sparebanken Narvik,Sparebanken_Narvik_937903979_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4529,
 989997254,Sparesmart (En del av Eika Kredittbank),Sparesmart_989997254_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9815,
