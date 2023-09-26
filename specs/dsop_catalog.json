@@ -82,14 +82,6 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937899785_Accounts-API.json",
-      "conformsTo": [
-        "https://bitsnorge.github.io/dsop-accounts-api"
-      ],
-      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899785"
-    },
-    {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937901003_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
