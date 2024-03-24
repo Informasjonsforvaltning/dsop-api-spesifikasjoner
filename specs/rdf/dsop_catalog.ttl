@@ -1,0 +1,1295 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://dataservice-publisher.digdir.no/catalogs/2d795f2e16757134b064f2a5cfa4ec9a2f85fa36> a dcat:Catalog ;
+    dct:description "Samling av kontoopplysnings API"@nb ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827> ;
+    dct:title "DSOP API katalog"@nb ;
+    dcat:service <https://dataservice-publisher.digdir.no/dataservices/061addf67578996332b93db82e864dc1791ccbda>,
+        <https://dataservice-publisher.digdir.no/dataservices/075b02e104266c5cdd9051967bea4ed6d0766aaa>,
+        <https://dataservice-publisher.digdir.no/dataservices/0885edccdee9530c35dd1d8c4e8ed3a133e2a2af>,
+        <https://dataservice-publisher.digdir.no/dataservices/092ddae55ff98daf7e1fdafa2c5f1b86dd0c6d0d>,
+        <https://dataservice-publisher.digdir.no/dataservices/095120f083c80b934363a39823cac69bb21bb61c>,
+        <https://dataservice-publisher.digdir.no/dataservices/0cf6d78ee03fcda4cbe0327d16ad2bcbf8dc882c>,
+        <https://dataservice-publisher.digdir.no/dataservices/0e947ee8034e1836dfe352e2cc5a0a540e9e76ad>,
+        <https://dataservice-publisher.digdir.no/dataservices/1048f7bb8d85c26506d9ffad8fb9dbd1d084e3c3>,
+        <https://dataservice-publisher.digdir.no/dataservices/11edb7a4dd4514c357356e15d5b3569de06d89e7>,
+        <https://dataservice-publisher.digdir.no/dataservices/123fc9f49bd171e4bc1f8ab4eb93ba1ff0b214ab>,
+        <https://dataservice-publisher.digdir.no/dataservices/12f35f1281b354f078705c6bbb9cbe1f6c5838ae>,
+        <https://dataservice-publisher.digdir.no/dataservices/13701692c7868c0193c207cd4a37367c4c2a54fe>,
+        <https://dataservice-publisher.digdir.no/dataservices/17b908cb627c660b4309c3e3c05111edc9cf9ee1>,
+        <https://dataservice-publisher.digdir.no/dataservices/1b4c6967dfab77eb9313ed50b42ab5ee351ed486>,
+        <https://dataservice-publisher.digdir.no/dataservices/21085bb267402af520a12445d2a18d1996c80c08>,
+        <https://dataservice-publisher.digdir.no/dataservices/2109e9cbccfd783980fbc0165663e57cbc2d10f2>,
+        <https://dataservice-publisher.digdir.no/dataservices/2b1302965ff2266ae7a51591ea9011855ebd3bd7>,
+        <https://dataservice-publisher.digdir.no/dataservices/313466b8fc1b37e6755e0f2b8867b2868daebf92>,
+        <https://dataservice-publisher.digdir.no/dataservices/328ec41dd62252db5b940f89337d1cbf6b499cdd>,
+        <https://dataservice-publisher.digdir.no/dataservices/33d99e79e4c09782d60e04460f66ad643acfda07>,
+        <https://dataservice-publisher.digdir.no/dataservices/34a046d10d129ef789db2297f6750ef06f62d4e4>,
+        <https://dataservice-publisher.digdir.no/dataservices/363220ee3f2d92283b71d44a86b96a89c0497198>,
+        <https://dataservice-publisher.digdir.no/dataservices/3882f660e4188182af9d044f4c641813195208d5>,
+        <https://dataservice-publisher.digdir.no/dataservices/39d2a9f6d994981e05b3f368e11dca966b3971a9>,
+        <https://dataservice-publisher.digdir.no/dataservices/3cca0b2d4d41f377b256b78fda0a64be0a515ae1>,
+        <https://dataservice-publisher.digdir.no/dataservices/3dace1f98dcd39b2145540eb63c3928973eef5b5>,
+        <https://dataservice-publisher.digdir.no/dataservices/4195429bf2b076d55e45953bc815902c03f94fb6>,
+        <https://dataservice-publisher.digdir.no/dataservices/42b5e345cc36437d6e3dd7968e929c8cea5157d4>,
+        <https://dataservice-publisher.digdir.no/dataservices/4536a72207e8a14ff9deda32208403a9998beca1>,
+        <https://dataservice-publisher.digdir.no/dataservices/49eac7019883dbea60168eb98ace78b2fee8bcad>,
+        <https://dataservice-publisher.digdir.no/dataservices/4a2b8b10aa0d703156a750ebd467f13734be8953>,
+        <https://dataservice-publisher.digdir.no/dataservices/4aae14f964fe173ff78743b3ec6038f9810d880f>,
+        <https://dataservice-publisher.digdir.no/dataservices/4b28020a9edc96593ad03d41819b55dcd7ae3d99>,
+        <https://dataservice-publisher.digdir.no/dataservices/4dd129f65f41e4dd987347e77f704643f2d8d7dc>,
+        <https://dataservice-publisher.digdir.no/dataservices/4f1eda051becea2aeb5293a59694f4baf9001532>,
+        <https://dataservice-publisher.digdir.no/dataservices/4f22bba265d55b9ee870d2e2eb56c88d268f8e81>,
+        <https://dataservice-publisher.digdir.no/dataservices/50f4b761846e0b386942be5d1200c69ed12509f6>,
+        <https://dataservice-publisher.digdir.no/dataservices/51000ab6e8e95a661eac48a99ad18ead0f75fbb3>,
+        <https://dataservice-publisher.digdir.no/dataservices/53adbc30d9f58209098302e968b28cab1dd5b8a4>,
+        <https://dataservice-publisher.digdir.no/dataservices/57d89ebce7a780c1aebd56eb1a7320a062267985>,
+        <https://dataservice-publisher.digdir.no/dataservices/6326b8c732b065c9ddbb4d8f79b6e97ef7f717a7>,
+        <https://dataservice-publisher.digdir.no/dataservices/63afde8f6eef90d7433643c273ff45b20b3cf0cd>,
+        <https://dataservice-publisher.digdir.no/dataservices/64e4d0c45802d017b567c52811d7d97f22661706>,
+        <https://dataservice-publisher.digdir.no/dataservices/66beb8dc672fde76011ea93779839225567a5fc9>,
+        <https://dataservice-publisher.digdir.no/dataservices/690cd91aac621e7c6c25f59c809c5e5a21152cf4>,
+        <https://dataservice-publisher.digdir.no/dataservices/6af21c63f19d4b47a24fa49fc96702c82030ab9c>,
+        <https://dataservice-publisher.digdir.no/dataservices/6e086e448d5250a71ae1ec20ab5f8c9e5743a57d>,
+        <https://dataservice-publisher.digdir.no/dataservices/6f69e6697bf6dc2851fb9080be3f48f4dbcf9248>,
+        <https://dataservice-publisher.digdir.no/dataservices/70485f3d6f557425aedd0d51d258a335e4938e9a>,
+        <https://dataservice-publisher.digdir.no/dataservices/70998c16ef0ada0a18786f3ca066fa9d7555d45e>,
+        <https://dataservice-publisher.digdir.no/dataservices/74dc5a1bd93c5e4d4d4a70b3f924a0f4865a0b12>,
+        <https://dataservice-publisher.digdir.no/dataservices/79993be3e39afe102fa0291c3dcc2ed8b06e7ece>,
+        <https://dataservice-publisher.digdir.no/dataservices/7d825528b0c1994dda634a7ce356a93be18e321b>,
+        <https://dataservice-publisher.digdir.no/dataservices/7d8381df4d82f98d4f36cfbbf39cc9b771123cdb>,
+        <https://dataservice-publisher.digdir.no/dataservices/7da9a4168e6ee09daae783224acbe0f3014227db>,
+        <https://dataservice-publisher.digdir.no/dataservices/7dc6a272434a4e29f5cd4563a94bbd3f2a9809c7>,
+        <https://dataservice-publisher.digdir.no/dataservices/7eec5f30d9d54474f7e160ee259ab9ba6b516628>,
+        <https://dataservice-publisher.digdir.no/dataservices/7fe322ee6c6233d22625d5fbc826809087131ff7>,
+        <https://dataservice-publisher.digdir.no/dataservices/80c18ae60381a3aeccb6c87a4e7355870d1f49dd>,
+        <https://dataservice-publisher.digdir.no/dataservices/80e8841ab7c8171cd0bbc6a422ae748cbe82853d>,
+        <https://dataservice-publisher.digdir.no/dataservices/873a97c3411a08753c42a0264d0e41aaf15e4fae>,
+        <https://dataservice-publisher.digdir.no/dataservices/8887f1d014cdc46a69e56931e6c7beb149decdeb>,
+        <https://dataservice-publisher.digdir.no/dataservices/888c6007bca6d99e4716d6592c0ab5e07ef54da0>,
+        <https://dataservice-publisher.digdir.no/dataservices/8a49fc9f1e9ee956003fdffa58388f655d4290f8>,
+        <https://dataservice-publisher.digdir.no/dataservices/8b34e3adde194a6bc2e04f9dc4c9aa89395f58c0>,
+        <https://dataservice-publisher.digdir.no/dataservices/8e4a4992129b456d413c9036dc8f1c3652162875>,
+        <https://dataservice-publisher.digdir.no/dataservices/8f210a7d359ff2f4ed78e4b44872cf32b15a06ce>,
+        <https://dataservice-publisher.digdir.no/dataservices/915520ac25311a6e02947ffda18e899a27347095>,
+        <https://dataservice-publisher.digdir.no/dataservices/9627067b68d4dd77685b3ade7b3b48215ed9ef8b>,
+        <https://dataservice-publisher.digdir.no/dataservices/9810a14ef6a116402c22b2da67362f05fc3d8c60>,
+        <https://dataservice-publisher.digdir.no/dataservices/9afef1acaf124200c67e7ca43ffdf632bafad8b9>,
+        <https://dataservice-publisher.digdir.no/dataservices/9e32167545d3834893d30e23ab5e638a578d8079>,
+        <https://dataservice-publisher.digdir.no/dataservices/9ec5c1b1f48f81cc339fdb58af48136c523a46cb>,
+        <https://dataservice-publisher.digdir.no/dataservices/a053b53cd4bfad346eee48b4f55b69bc0fa21dea>,
+        <https://dataservice-publisher.digdir.no/dataservices/a3c99f63963768f0d2ac171da48588fa8fdc38a5>,
+        <https://dataservice-publisher.digdir.no/dataservices/a49b2a1aff44654f2cbeb772816397f2c9939a1f>,
+        <https://dataservice-publisher.digdir.no/dataservices/a4bb11ce40ef473109d15ed3a5e7ee029cb656c2>,
+        <https://dataservice-publisher.digdir.no/dataservices/a682d5c57d4aefa3519e98bb9d6965dc3296c5ca>,
+        <https://dataservice-publisher.digdir.no/dataservices/aaa7455aa04d51f53cd3bb0a966647f35024e856>,
+        <https://dataservice-publisher.digdir.no/dataservices/ac218cb36bc0e6ef7af47b4363419618a143baec>,
+        <https://dataservice-publisher.digdir.no/dataservices/ad1d96520f927445ca61b985c85f67a54525ecb6>,
+        <https://dataservice-publisher.digdir.no/dataservices/ae3188ad733332061c0cad26fe8274705c0d9188>,
+        <https://dataservice-publisher.digdir.no/dataservices/ae7e70a35eff9a6a2b31e8bf4600711d84ec2931>,
+        <https://dataservice-publisher.digdir.no/dataservices/aef187e77acc2940eb0ba5dc6432118c67e2fdf5>,
+        <https://dataservice-publisher.digdir.no/dataservices/b0dc09d380af0cd29525f3f747d47f14f2c5caa6>,
+        <https://dataservice-publisher.digdir.no/dataservices/b2ec98c8626901bc5a60b899575597e5688d8b6f>,
+        <https://dataservice-publisher.digdir.no/dataservices/b6c7294e1a97005687db413ed1c667d4ee5d8bf5>,
+        <https://dataservice-publisher.digdir.no/dataservices/b84dad08b60f05390aeb2db72b6ef766336c2e98>,
+        <https://dataservice-publisher.digdir.no/dataservices/b90c57337480d219fc27b3a9e742878122fe5d92>,
+        <https://dataservice-publisher.digdir.no/dataservices/bb85b23e6a130ceaaf8aaa0c6bd840aa2e174b2a>,
+        <https://dataservice-publisher.digdir.no/dataservices/bdd11fb61ab67421bdd318563aa26a322a840a98>,
+        <https://dataservice-publisher.digdir.no/dataservices/be225a0c326fc4f2c76f5019cf76ec2ce90bde77>,
+        <https://dataservice-publisher.digdir.no/dataservices/be59d9b067460926fd04657d75cadf787a5f2cd5>,
+        <https://dataservice-publisher.digdir.no/dataservices/bed5a86134e680181948c584cbadacf7ee9274e5>,
+        <https://dataservice-publisher.digdir.no/dataservices/c08ef410aaabf620fd9540541c929c4b4f284a35>,
+        <https://dataservice-publisher.digdir.no/dataservices/c13776f475deeb85e33fe35ae510bd91b5a63097>,
+        <https://dataservice-publisher.digdir.no/dataservices/c33f09e9de2da0bf16e35ec74378c922831a6b9e>,
+        <https://dataservice-publisher.digdir.no/dataservices/ccb0360940ec36f53a2ef87b3d99583b2da78b66>,
+        <https://dataservice-publisher.digdir.no/dataservices/ceda1dc50557bb8b3f5f3102619d75ad9b1dad6a>,
+        <https://dataservice-publisher.digdir.no/dataservices/d062ef0a6aa22b8c488fcfa853ccfd3785293768>,
+        <https://dataservice-publisher.digdir.no/dataservices/d36951800451566752167cf83c8197f246511ce4>,
+        <https://dataservice-publisher.digdir.no/dataservices/d6763b61d6786dd7e6d859449716b23f028e76a3>,
+        <https://dataservice-publisher.digdir.no/dataservices/d82330a87f8575b84b040b07c50f8987fa857c7a>,
+        <https://dataservice-publisher.digdir.no/dataservices/d99ed01672a2c1340b6707de26fa4ec1bcabb179>,
+        <https://dataservice-publisher.digdir.no/dataservices/dd3a659472c639ccd545657fdedc2eae021f5381>,
+        <https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6>,
+        <https://dataservice-publisher.digdir.no/dataservices/e411c802b2ffbb89b951f26356a1d732fd174215>,
+        <https://dataservice-publisher.digdir.no/dataservices/e63593baec1577ef2d626178b7884a24bab46091>,
+        <https://dataservice-publisher.digdir.no/dataservices/e6b30b6a4ca0f0d708de4625deb10a8918628f29>,
+        <https://dataservice-publisher.digdir.no/dataservices/ecb343dcc2144e74c6d842aff3817c9fd6ca87f1>,
+        <https://dataservice-publisher.digdir.no/dataservices/ed0108a83d2b4c4f9b690f4cc54a1976153d94e5>,
+        <https://dataservice-publisher.digdir.no/dataservices/efbbab13ed6ddd8d76ff5a8dfe02bbd5f133dfda>,
+        <https://dataservice-publisher.digdir.no/dataservices/f4f288251c1264394cc684c8a3aeb542251ce1b6>,
+        <https://dataservice-publisher.digdir.no/dataservices/fb33d306cc8362392c96ec50c9d489c645d7c5d9>,
+        <https://dataservice-publisher.digdir.no/dataservices/fb960fc60f150b2ac0d5f97e92a028e79783c2e9>,
+        <https://dataservice-publisher.digdir.no/dataservices/fbdcbbf75f34b2c3d6e2e7b2aa9ca6ae19388472>,
+        <https://dataservice-publisher.digdir.no/dataservices/ff40337f3058227f062e52751f95d22d9aace777> .
+
+<https://dataservice-publisher.digdir.no/dataservices/061addf67578996332b93db82e864dc1791ccbda> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/985750378> ;
+    dct:title "Accounts API Fornebu Sparebank (Oslofjord Sparebank)"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Fornebu_Sparebank_985750378_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1459> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/075b02e104266c5cdd9051967bea4ed6d0766aaa> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902174> ;
+    dct:title "Accounts API Trøndelag Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trondelag_Sparebank_937902174_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4314> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/0885edccdee9530c35dd1d8c4e8ed3a133e2a2af> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/977074010> ;
+    dct:title "Accounts API Danske Bank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Danske_Bank_977074010_Accounts-API.json> ;
+    dcat:endpointURL <https://apiu.danskebank.no/prod/external-unauthenticated/dsop-controlling/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/092ddae55ff98daf7e1fdafa2c5f1b86dd0c6d0d> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894716> ;
+    dct:title "Accounts API Spareskillingsbanken"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Spareskillingsbanken_937894716_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3060> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/095120f083c80b934363a39823cac69bb21bb61c> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904029> ;
+    dct:title "Accounts API Helgeland Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Helgeland_Sparebank_937904029_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937904029> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/0cf6d78ee03fcda4cbe0327d16ad2bcbf8dc882c> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837897912> ;
+    dct:title "Accounts API Sogn Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sogn_Sparebank_837897912_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3839> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/0e947ee8034e1836dfe352e2cc5a0a540e9e76ad> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900775> ;
+    dct:title "Accounts API Romsdal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Romsdal_Sparebank_937900775_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4076> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/1048f7bb8d85c26506d9ffad8fb9dbd1d084e3c3> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889097> ;
+    dct:title "Accounts API Hønefoss Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Honefoss_Sparebank_937889097_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937889097> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/11edb7a4dd4514c357356e15d5b3569de06d89e7> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885644> ;
+    dct:title "Accounts API Aurskog Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Aurskog_Sparebank_937885644_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1274> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/123fc9f49bd171e4bc1f8ab4eb93ba1ff0b214ab> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901836> ;
+    dct:title "Accounts API Selbu Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Selbu_Sparebank_937901836_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937901836> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/12f35f1281b354f078705c6bbb9cbe1f6c5838ae> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885288> ;
+    dct:title "Accounts API Berg Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Berg_Sparebank_937885288_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1109> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/13701692c7868c0193c207cd4a37367c4c2a54fe> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893299> ;
+    dct:title "Accounts API Hjartdal og Gransherad Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjartdal_og_Gransherad_Sparebank_937893299_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2698> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/17b908cb627c660b4309c3e3c05111edc9cf9ee1> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888104> ;
+    dct:title "Accounts API SPAREBANK 1 GUDBRANDSDAL"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937888104_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888104> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/1b4c6967dfab77eb9313ed50b42ab5ee351ed486> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/952706365> ;
+    dct:title "Accounts API SPAREBANK 1 NORD-NORGE"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_952706365_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/952706365> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/21085bb267402af520a12445d2a18d1996c80c08> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888570> ;
+    dct:title "Accounts API Etnedal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Etnedal_Sparebank_937888570_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2142> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/2109e9cbccfd783980fbc0165663e57cbc2d10f2> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837895502> ;
+    dct:title "Accounts API Haugesund Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Haugesund_Sparebank_837895502_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3249> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/2b1302965ff2266ae7a51591ea9011855ebd3bd7> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902263> ;
+    dct:title "Accounts API Soknedal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Soknedal_Sparebank_937902263_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4335> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/313466b8fc1b37e6755e0f2b8867b2868daebf92> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975963748> ;
+    dct:title "Accounts API Sparebank 1 Finans Østlandet AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Østlandet_AS_975963748_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975963748> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/328ec41dd62252db5b940f89337d1cbf6b499cdd> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/956548888> ;
+    dct:title "Accounts API RørosBanken Røros Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/RorosBanken_Roros_Sparebank_956548888_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4284> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/33d99e79e4c09782d60e04460f66ad643acfda07> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894805> ;
+    dct:title "Accounts API Kvinesdal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Kvinesdal_Sparebank_937894805_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3081> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/34a046d10d129ef789db2297f6750ef06f62d4e4> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/986144706> ;
+    dct:title "Accounts API BRAbank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/BRAbank_ASA_986144706_Accounts-API.json> ;
+    dcat:endpointURL <https://externalcontrolapi.brabank.no/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/363220ee3f2d92283b71d44a86b96a89c0497198> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897464> ;
+    dct:title "Accounts API Etne Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Etne_Sparebank_937897464_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3543> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/3882f660e4188182af9d044f4c641813195208d5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/817244742> ;
+    dct:title "Accounts API Voss Veksel- og Landmandsbank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Voss_Veksel-_og_Landmandsbank_ASA_817244742_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9588> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/39d2a9f6d994981e05b3f368e11dca966b3971a9> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991853995> ;
+    dct:title "Accounts API Bien Sparebank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bien_Sparebank_ASA_991853995_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1729> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/3cca0b2d4d41f377b256b78fda0a64be0a515ae1> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/955008863> ;
+    dct:title "Accounts API Ofoten Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Ofoten_Sparebank_955008863_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/955008863> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/3dace1f98dcd39b2145540eb63c3928973eef5b5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/980374181> ;
+    dct:title "Accounts API Landkreditt Bank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Landkreditt_Bank_980374181_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9360> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4195429bf2b076d55e45953bc815902c03f94fb6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937905378> ;
+    dct:title "Accounts API Sparebank 68 grader Nord"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_68_grader_Nord_937905378_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937905378> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/42b5e345cc36437d6e3dd7968e929c8cea5157d4> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/990323429> ;
+    dct:title "Accounts API Gjensidige Bank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Gjensidige_Bank_990323429_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9776> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4536a72207e8a14ff9deda32208403a9998beca1> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884672> ;
+    dct:title "Accounts API Marker Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Marker_Sparebank_937884672_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1058> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/49eac7019883dbea60168eb98ace78b2fee8bcad> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894627> ;
+    dct:title "Accounts API Flekkefjord Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Flekkefjord_Sparebank_937894627_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3030> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4a2b8b10aa0d703156a750ebd467f13734be8953> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920058817> ;
+    dct:title "Accounts API Nordea Bank Abp, filial i Norge"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nordea_Bank_Abp_920058817_Accounts-API.json> ;
+    dcat:endpointURL <https://RB-DSOP-ARC642-NO-prod-extranet.nordea.com:9040/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4aae14f964fe173ff78743b3ec6038f9810d880f> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889631> ;
+    dct:title "Accounts API SPAREBANK 1 HALLINGDAL OG VALDRES"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889631_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889631> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4b28020a9edc96593ad03d41819b55dcd7ae3d99> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/914864445> ;
+    dct:title "Accounts API BN Bank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/BN_Bank_914864445_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9236> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4dd129f65f41e4dd987347e77f704643f2d8d7dc> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894538> ;
+    dct:title "Accounts API Sparebanken Sør"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Sor_937894538_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2844> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4f1eda051becea2aeb5293a59694f4baf9001532> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/995610760> ;
+    dct:title "Accounts API Brage Finans AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Brage_Finans_AS_995610760_Accounts-API.json> ;
+    dcat:endpointURL <https://debtinfohub.brage.no/dsop-service/api/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/4f22bba265d55b9ee870d2e2eb56c88d268f8e81> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837886252> ;
+    dct:title "Accounts API Blaker Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Blaker_Sparebank_837886252_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/837886252> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/50f4b761846e0b386942be5d1200c69ed12509f6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915287700> ;
+    dct:title "Accounts API Sbanken"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sbanken_915287700_Accounts-API.json> ;
+    dcat:endpointURL <https://dsop.sbanken.no/api/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/51000ab6e8e95a661eac48a99ad18ead0f75fbb3> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895976> ;
+    dct:title "Accounts API Jæren Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Jeren_Sparebank_937895976_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3294> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/53adbc30d9f58209098302e968b28cab1dd5b8a4> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888937> ;
+    dct:title "Accounts API Sparebanken Øst"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Ost_937888937_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2229> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/57d89ebce7a780c1aebd56eb1a7320a062267985> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/953299216> ;
+    dct:title "Accounts API Storebrand Bank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Storebrand_Bank_ASA_953299216_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/953299216> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/6326b8c732b065c9ddbb4d8f79b6e97ef7f717a7> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891601> ;
+    dct:title "Accounts API Drangedal og Tørdal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Drangedal_og_Tordal_Sparebank_937891601_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937891601> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/63afde8f6eef90d7433643c273ff45b20b3cf0cd> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886705> ;
+    dct:title "Accounts API Grue Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Grue_Sparebank_937886705_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1839> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/64e4d0c45802d017b567c52811d7d97f22661706> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886160> ;
+    dct:title "Accounts API Strømmen Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Strommen_Sparebank_937886160_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1314> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/66beb8dc672fde76011ea93779839225567a5fc9> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890540> ;
+    dct:title "Accounts API Andebu Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Andebu_Sparebank_937890540_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2504> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/690cd91aac621e7c6c25f59c809c5e5a21152cf4> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897286> ;
+    dct:title "Accounts API Voss Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Voss_Sparebank_937897286_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3489> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/6af21c63f19d4b47a24fa49fc96702c82030ab9c> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902085> ;
+    dct:title "Accounts API Bjugn Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bjugn_Sparebank_937902085_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4299> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/6e086e448d5250a71ae1ec20ab5f8c9e5743a57d> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982719445> ;
+    dct:title "Accounts API JBF"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/JBF_982719445_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1449> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/6f69e6697bf6dc2851fb9080be3f48f4dbcf9248> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/988257133> ;
+    dct:title "Accounts API Bank2 ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bank2_ASA_988257133_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9619> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/70485f3d6f557425aedd0d51d258a335e4938e9a> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887787> ;
+    dct:title "Accounts API Totens Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Totens_Sparebank_937887787_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2059> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/70998c16ef0ada0a18786f3ca066fa9d7555d45e> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893833> ;
+    dct:title "Accounts API Birkenes Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Birkenes_Sparebank_937893833_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2884> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/74dc5a1bd93c5e4d4d4a70b3f924a0f4865a0b12> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884494> ;
+    dct:title "Accounts API Eidsberg Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Eidsberg_Sparebank_937884494_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1028> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/79993be3e39afe102fa0291c3dcc2ed8b06e7ece> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894260> ;
+    dct:title "Accounts API Agder Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Agder_Sparebank_937894260_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2909> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7d825528b0c1994dda634a7ce356a93be18e321b> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901003> ;
+    dct:title "Accounts API SPAREBANK 1 SMN"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937901003_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937901003> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7d8381df4d82f98d4f36cfbbf39cc9b771123cdb> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885199> ;
+    dct:title "Accounts API Askim & Spydeberg Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Askim_og_Spydeberg_Sparebank_937885199_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937885199> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7da9a4168e6ee09daae783224acbe0f3014227db> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/938521549> ;
+    dct:title "Accounts API Sparebank 1 Finans Midt Norge AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Midt_Norge_AS_938521549_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/938521549> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7dc6a272434a4e29f5cd4563a94bbd3f2a9809c7> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904673> ;
+    dct:title "Accounts API Gildeskål Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Gildeskal_Sparebank_937904673_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4611> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7eec5f30d9d54474f7e160ee259ab9ba6b516628> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816793432> ;
+    dct:title "Accounts API Tolga-Os Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tolga-Os_Sparebank_816793432_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/816793432> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/7fe322ee6c6233d22625d5fbc826809087131ff7> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887043> ;
+    dct:title "Accounts API Odal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Odal_Sparebank_937887043_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1874> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/80c18ae60381a3aeccb6c87a4e7355870d1f49dd> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894082> ;
+    dct:title "Accounts API Arendal og Omegns Sparekasse"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Arendal_og_Omegns_Sparekasse_937894082_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937894082> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/80e8841ab7c8171cd0bbc6a422ae748cbe82853d> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/946670081> ;
+    dct:title "Accounts API Sparebanken Sogn og Fjordane"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3702> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/873a97c3411a08753c42a0264d0e41aaf15e4fae> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942> ;
+    dct:title "Accounts API SPAREBANK 1 ØSTFOLD AKERSHUS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_837884942_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/837884942> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/8887f1d014cdc46a69e56931e6c7beb149decdeb> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/944521836> ;
+    dct:title "Accounts API SPAREBANK 1 BV"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_944521836_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/944521836> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/888c6007bca6d99e4716d6592c0ab5e07ef54da0> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893922> ;
+    dct:title "Accounts API Valle Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Valle_Sparebank_937893922_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2894> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/8a49fc9f1e9ee956003fdffa58388f655d4290f8> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/993821837> ;
+    dct:title "Accounts API KLP Banken AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/KLP_Banken_AS_993821837_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/8317> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/8b34e3adde194a6bc2e04f9dc4c9aa89395f58c0> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/984851006> ;
+    dct:title "Accounts API DNB"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/DNB_984851006_Accounts-API.json> ;
+    dcat:endpointURL <https://publicsector.dnb.no/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/8e4a4992129b456d413c9036dc8f1c3652162875> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903979> ;
+    dct:title "Accounts API Sparebanken Narvik"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Narvik_937903979_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4529> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/8f210a7d359ff2f4ed78e4b44872cf32b15a06ce> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889186> ;
+    dct:title "Accounts API SPAREBANK 1 MODUM"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889186_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889186> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/915520ac25311a6e02947ffda18e899a27347095> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/947278770> ;
+    dct:title "Accounts API Orkla Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orkdal_Sparebank_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4274> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/9627067b68d4dd77685b3ade7b3b48215ed9ef8b> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903146> ;
+    dct:title "Accounts API Grong Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Grong_Sparebank_937903146_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4454> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/9810a14ef6a116402c22b2da67362f05fc3d8c60> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/998997801> ;
+    dct:title "Accounts API Morrow Bank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Morrow_Bank_ASA_998997801_Accounts-API.json> ;
+    dcat:endpointURL <https://eoppslag.online.komplettbank.no/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/9afef1acaf124200c67e7ca43ffdf632bafad8b9> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971171324> ;
+    dct:title "Accounts API Handelsbanken"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Handelsbanken_971171324_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9057> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/9e32167545d3834893d30e23ab5e638a578d8079> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900031> ;
+    dct:title "Accounts API Surnadal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Surnadal_Sparebank_937900031_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937900031> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/9ec5c1b1f48f81cc339fdb58af48136c523a46cb> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885377> ;
+    dct:title "Accounts API Trøgstad Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trogstad_Sparebank_937885377_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1144> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a053b53cd4bfad346eee48b4f55b69bc0fa21dea> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902352> ;
+    dct:title "Accounts API Stadsbygd Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Stadsbygd_Sparebank_937902352_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937902352> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a3c99f63963768f0d2ac171da48588fa8fdc38a5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888759> ;
+    dct:title "Accounts API Valdres Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Valdres_Sparebank_937888759_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2149> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a49b2a1aff44654f2cbeb772816397f2c9939a1f> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920426530> ;
+    dct:title "Accounts API SPAREBANK 1 ØSTLANDET"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_920426530_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/920426530> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a4bb11ce40ef473109d15ed3a5e7ee029cb656c2> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/989997254> ;
+    dct:title "Accounts API Sparesmart (En del av Eika Kredittbank)"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparesmart_989997254_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9815> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a682d5c57d4aefa3519e98bb9d6965dc3296c5ca> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893655> ;
+    dct:title "Accounts API Lillesands Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Lillesands_Sparebank_937893655_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2850> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/aaa7455aa04d51f53cd3bb0a966647f35024e856> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903235> ;
+    dct:title "Accounts API Hegra Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hegra_Sparebank_937903235_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4478> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ac218cb36bc0e6ef7af47b4363419618a143baec> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891245> ;
+    dct:title "Accounts API Skagerrak Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skagerrak_Sparebank_937891245_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2609> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ad1d96520f927445ca61b985c85f67a54525ecb6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902719> ;
+    dct:title "Accounts API Nidaros Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nidaros_Sparebank_937902719_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937902719> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ae3188ad733332061c0cad26fe8274705c0d9188> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916573154> ;
+    dct:title "Accounts API BANK NORWEGIAN, EN FILIAL AV NORDAX BANK AB (PUBL)"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nordax_Bank_AB_916573154_Accounts-API.json> ;
+    dcat:endpointURL <https://partner.nordax.com/DSOP/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ae7e70a35eff9a6a2b31e8bf4600711d84ec2931> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837902622> ;
+    dct:title "Accounts API Haltdalen Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Haltdalen_Sparebank_837902622_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4354> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/aef187e77acc2940eb0ba5dc6432118c67e2fdf5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901569> ;
+    dct:title "Accounts API Oppdalsbanken"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Oppdalsbanken_937901569_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4269> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b0dc09d380af0cd29525f3f747d47f14f2c5caa6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896670> ;
+    dct:title "Accounts API Skudenes & Aakra Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skudenes_og_Aakra_Sparebank_937896670_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3361> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b2ec98c8626901bc5a60b899575597e5688d8b6f> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991682511> ;
+    dct:title "Accounts API Ekspress Bank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Ekspress_Bank_991682511_Accounts-API.json> ;
+    dcat:endpointURL <https://apigateway.expressbank.dk/control-information/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b6c7294e1a97005687db413ed1c667d4ee5d8bf5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837900212> ;
+    dct:title "Accounts API Ørskog Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orskog_Sparebank_837900212_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4064> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b84dad08b60f05390aeb2db72b6ef766336c2e98> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885911> ;
+    dct:title "Accounts API Romerike Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Romerike_Sparebank_937885911_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1287> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b90c57337480d219fc27b3a9e742878122fe5d92> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899963> ;
+    dct:title "Accounts API Sunndal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sunndal_Sparebank_937899963_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4039> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/bb85b23e6a130ceaaf8aaa0c6bd840aa2e174b2a> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891334> ;
+    dct:title "Accounts API SPAREBANK 1 TELEMARK"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937891334_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937891334> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/bdd11fb61ab67421bdd318563aa26a322a840a98> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/930050237> ;
+    dct:title "Accounts API Sparebank 1 Finans Nord-Norge AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Nord-Norge_AS_930050237_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/930050237> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/be225a0c326fc4f2c76f5019cf76ec2ce90bde77> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896859> ;
+    dct:title "Accounts API Fana Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Fana_Sparebank_937896859_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3400> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/be59d9b067460926fd04657d75cadf787a5f2cd5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894171> ;
+    dct:title "Accounts API Evje og Hornnes Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Evje_og_Hornnes_Sparebank_937894171_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2903> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/bed5a86134e680181948c584cbadacf7ee9274e5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895321> ;
+    dct:title "Accounts API SPAREBANK 1 SR-BANK ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/SPAREBANK_1_SR-BANK_ASA_937895321_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937895321> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/c08ef410aaabf620fd9540541c929c4b4f284a35> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/832554332> ;
+    dct:title "Accounts API Sparebanken Vest"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Vest_832554332_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3601> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/c13776f475deeb85e33fe35ae510bd91b5a63097> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899319> ;
+    dct:title "Accounts API Sparebanken Møre"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_More_937899319_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3914> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/c33f09e9de2da0bf16e35ec74378c922831a6b9e> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897375> ;
+    dct:title "Accounts API Tysnes Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tysnes_Bank_937897375_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3528> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ccb0360940ec36f53a2ef87b3d99583b2da78b66> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889275> ;
+    dct:title "Accounts API SPAREBANK 1 RINGERIKE HADELAND"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889275_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889275> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ceda1dc50557bb8b3f5f3102619d75ad9b1dad6a> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900953> ;
+    dct:title "Accounts API Rindal Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Rindal_Sparebank_937900953_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4113> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/d062ef0a6aa22b8c488fcfa853ccfd3785293768> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975966453> ;
+    dct:title "Accounts API SPAREBANK 1 KREDITT AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_KREDITT_AS_975966453_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975966453> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/d36951800451566752167cf83c8197f246511ce4> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885822> ;
+    dct:title "Accounts API Høland og Setskog Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Holand_og_Setskog_Sparebank_937885822_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1284> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/d6763b61d6786dd7e6d859449716b23f028e76a3> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915691161> ;
+    dct:title "Accounts API Sandnes Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sandnes_Sparebank_915691161_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3263> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/d82330a87f8575b84b040b07c50f8987fa857c7a> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901925> ;
+    dct:title "Accounts API Ørland Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orland_Sparebank_937901925_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937901925> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/d99ed01672a2c1340b6707de26fa4ec1bcabb179> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837889812> ;
+    dct:title "Accounts API Skue Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skue_Sparebank_837889812_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2355> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/dd3a659472c639ccd545657fdedc2eae021f5381> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916012683> ;
+    dct:title "Accounts API MyBank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/MyBank_ASA_916012683_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/916012683> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896581> ;
+    dct:title "Accounts API Hjelmeland Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjelmeland_Sparebank_937896581_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3354> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/e411c802b2ffbb89b951f26356a1d732fd174215> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888015> ;
+    dct:title "Accounts API SPAREBANK 1 LOM OG SKJÅK"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937888015_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888015> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/e63593baec1577ef2d626178b7884a24bab46091> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890729> ;
+    dct:title "Accounts API Larvikbanken - Din Personlige Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Larvikbanken_-_Din_Personlige_Sparebank_937890729_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2514> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/e6b30b6a4ca0f0d708de4625deb10a8918628f29> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891423> ;
+    dct:title "Accounts API Tinn Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tinn_Sparebank_937891423_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/2629> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ecb343dcc2144e74c6d842aff3817c9fd6ca87f1> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899408> ;
+    dct:title "Accounts API SPAREBANK 1 NORDVEST"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937899408_Accounts-API.json> ;
+    dcat:endpointURL <https://api.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937899408> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ed0108a83d2b4c4f9b690f4cc54a1976153d94e5> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903502> ;
+    dct:title "Accounts API Aasen Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Aasen_Sparebank_937903502_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937903502> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/efbbab13ed6ddd8d76ff5a8dfe02bbd5f133dfda> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891512> ;
+    dct:title "Accounts API Sparebanken DIN"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_DIN_937891512_Accounts-API.json> ;
+    dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/937891512> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/f4f288251c1264394cc684c8a3aeb542251ce1b6> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816914582> ;
+    dct:title "Accounts API Instabank ASA"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Instabank_ASA_816914582_Accounts-API.json> ;
+    dcat:endpointURL <https://central.services.banqsoft.com/dsop-kontroll/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/fb33d306cc8362392c96ec50c9d489c645d7c5d9> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/911986884> ;
+    dct:title "Accounts API OBOS-banken"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/OBOS-banken_911986884_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9824> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/fb960fc60f150b2ac0d5f97e92a028e79783c2e9> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895054> ;
+    dct:title "Accounts API Søgne og Greipstad Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sogne_og_Greipstad_Sparebank_937895054_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3090> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/fbdcbbf75f34b2c3d6e2e7b2aa9ca6ae19388472> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937898614> ;
+    dct:title "Accounts API Luster Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Luster_Sparebank_937898614_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3785> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/ff40337f3058227f062e52751f95d22d9aace777> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901291> ;
+    dct:title "Accounts API Melhus Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Melhus_Sparebank_937901291_Accounts-API.json> ;
+    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4239> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
