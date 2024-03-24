@@ -8,6 +8,10 @@ import sys
 from typing import Any, List
 
 import click
+import datacatalogtordf
+from oastodcat import OASDataService
+from rdflib.graph import Graph, URIRef
+from requests import get
 import yaml
 
 from . import __version__
@@ -39,6 +43,11 @@ def main(template: Any, input: Any, directory: Any) -> None:
     prod_catalog_filename = os.path.join(directory, "dsop_catalog.json")
     Path("test").mkdir(parents=True, exist_ok=True)
     test_catalog_filename = os.path.join(directory, "test", "dsop_catalog_test.json")
+    Path("rdf").mkdir(parents=True, exist_ok=True)
+    turtle_prod_catalog_filename = os.path.join(directory, "rdf", "dsop_catalog.ttl")
+    turtle_test_catalog_filename = os.path.join(
+        directory, "rdf", "dsop_catalog_test.ttl"
+    )
     prod_catalog = Catalog(production=True)
     test_catalog = Catalog(production=False)
     # skipping first row, which is headers:
@@ -74,6 +83,13 @@ def main(template: Any, input: Any, directory: Any) -> None:
 
     _write_catalog_file(prod_catalog_filename, prod_catalog)
     _write_catalog_file(test_catalog_filename, test_catalog)
+
+    _write_catalog_rdf_file(
+        turtle_prod_catalog_filename, create_catalog_graph(prod_catalog)
+    )
+    _write_catalog_rdf_file(
+        turtle_test_catalog_filename, create_catalog_graph(test_catalog)
+    )
 
 
 def _write_spec_to_file(specification_filedirectory: str, spec: dict) -> None:
@@ -113,6 +129,11 @@ def _write_catalog_file(catalog_filename: str, catalog: Catalog) -> None:
         )
 
 
+def _write_catalog_rdf_file(catalog_filename: str, catalog: Graph) -> None:
+    with open(catalog_filename, "w", encoding="utf-8") as catalogfile:
+        catalogfile.write(catalog.serialize(format="turtle"))
+
+
 def _generateSpec(template: dict, bank: List[str], production: bool) -> dict:
     """Generate spec based on template for bank."""
     # Need to do a deepcopy to actually copy the template into a new object.
@@ -134,3 +155,29 @@ def _generateSpec(template: dict, bank: List[str], production: bool) -> dict:
         server["description"] = "test"
         specification["servers"].append(server)
     return specification
+
+
+def create_catalog_graph(catalog: Catalog) -> Graph:
+    """Create a graph based on catalog and persist to store."""
+    # Use datacatalogtordf and oastodcat to create a graph and persist:
+    g = datacatalogtordf.Catalog()
+    g.identifier = URIRef(catalog.identifier)
+    g.title = catalog.title
+    g.description = catalog.description
+    g.publisher = catalog.publisher
+
+    for api in catalog.apis:
+        with get(api.url, timeout=5) as response:
+            if response.status_code == 200:
+                api_spec = response.text
+                oas = yaml.safe_load(api_spec)
+
+        oas_spec = OASDataService(api.url, oas, api.identifier)
+        oas_spec.conforms_to = api.conformsTo
+        oas_spec.publisher = api.publisher
+
+        # Add dataservices to catalog:
+        for dataservice in oas_spec.dataservices:
+            g.services.append(dataservice)
+
+    return g._to_graph()
