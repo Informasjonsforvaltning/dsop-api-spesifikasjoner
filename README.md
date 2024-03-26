@@ -13,10 +13,10 @@ A simple script is made to do the generation based on the banker.csv file and th
 - The server url for production is equal to the value in the "EndepunktProduksjon" column,
 - The server url for test is equal to the value in the "EndepunktTest" column, and
 - The file name of the specification is a concatenation of
-
   - the organization number,
   - the name of the organization, and
   - the name of the master specification file.
+- The id for each data service is equal to the "Id" column and the "TestId" column for the test-catalog. If no id is provided one is generated as a hash of the full path for the specification file.
 
 ## Development
 

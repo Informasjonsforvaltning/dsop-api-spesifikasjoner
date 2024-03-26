@@ -26,9 +26,9 @@ def test_Catalog_init(
 def test_API_init() -> None:
     """Should return a catalog instance with default values."""
     url_to_spec = "https://example.com/specification/oas_1"
-    api = API(url_to_spec)
+    api = API(url_to_spec, "123")
     assert api
-    assert api.identifier == "https://dataservice-publisher.digdir.no/dataservices/{id}"
+    assert api.identifier == "https://dataservice-publisher.digdir.no/dataservices/123"
     assert api.url == "https://example.com/specification/oas_1"
 
 
@@ -36,7 +36,7 @@ def test_add_API_to_catalog() -> None:
     """Should return a catalog instance with list of APIs."""
     catalog = Catalog(production=True)
     url_to_spec = "https://example.com/specification/oas_1"
-    api = API(url_to_spec)
+    api = API(url_to_spec, "123")
     catalog.apis.append(api)
     assert catalog.apis
     assert len(catalog.apis) == 1

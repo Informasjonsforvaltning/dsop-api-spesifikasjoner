@@ -9,7 +9,7 @@
   "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
   "apis": [
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/873a97c3411a08753c42a0264d0e41aaf15e4fae",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_837884942_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -17,7 +17,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/a49b2a1aff44654f2cbeb772816397f2c9939a1f",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_920426530_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -25,7 +25,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920426530"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/e411c802b2ffbb89b951f26356a1d732fd174215",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937888015_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -33,7 +33,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888015"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/17b908cb627c660b4309c3e3c05111edc9cf9ee1",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937888104_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -41,7 +41,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888104"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/8f210a7d359ff2f4ed78e4b44872cf32b15a06ce",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889186_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -49,7 +49,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889186"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ccb0360940ec36f53a2ef87b3d99583b2da78b66",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889275_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -57,7 +57,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889275"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4aae14f964fe173ff78743b3ec6038f9810d880f",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937889631_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -65,7 +65,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889631"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/bb85b23e6a130ceaaf8aaa0c6bd840aa2e174b2a",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937891334_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -73,7 +73,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891334"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ecb343dcc2144e74c6d842aff3817c9fd6ca87f1",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937899408_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -81,7 +81,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899408"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7d825528b0c1994dda634a7ce356a93be18e321b",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_937901003_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -89,7 +89,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901003"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/8887f1d014cdc46a69e56931e6c7beb149decdeb",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_944521836_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -97,7 +97,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/944521836"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/1b4c6967dfab77eb9313ed50b42ab5ee351ed486",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank1_952706365_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -105,7 +105,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/952706365"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/8b34e3adde194a6bc2e04f9dc4c9aa89395f58c0",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/DNB_984851006_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -113,7 +113,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/984851006"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4a2b8b10aa0d703156a750ebd467f13734be8953",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nordea_Bank_Abp_920058817_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -121,7 +121,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920058817"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/9810a14ef6a116402c22b2da67362f05fc3d8c60",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Morrow_Bank_ASA_998997801_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -129,7 +129,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/998997801"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4195429bf2b076d55e45953bc815902c03f94fb6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_68_grader_Nord_937905378_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -137,7 +137,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937905378"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4dd129f65f41e4dd987347e77f704643f2d8d7dc",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Sor_937894538_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -145,7 +145,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894538"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/9afef1acaf124200c67e7ca43ffdf632bafad8b9",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Handelsbanken_971171324_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -153,7 +153,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971171324"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/50f4b761846e0b386942be5d1200c69ed12509f6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sbanken_915287700_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -161,7 +161,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915287700"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ed0108a83d2b4c4f9b690f4cc54a1976153d94e5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Aasen_Sparebank_937903502_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -169,7 +169,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903502"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/66beb8dc672fde76011ea93779839225567a5fc9",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Andebu_Sparebank_937890540_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -177,7 +177,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890540"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/80c18ae60381a3aeccb6c87a4e7355870d1f49dd",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Arendal_og_Omegns_Sparekasse_937894082_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -185,7 +185,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894082"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7d8381df4d82f98d4f36cfbbf39cc9b771123cdb",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Askim_og_Spydeberg_Sparebank_937885199_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -193,7 +193,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885199"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/11edb7a4dd4514c357356e15d5b3569de06d89e7",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Aurskog_Sparebank_937885644_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -201,7 +201,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885644"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/6f69e6697bf6dc2851fb9080be3f48f4dbcf9248",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bank2_ASA_988257133_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -209,7 +209,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/988257133"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/12f35f1281b354f078705c6bbb9cbe1f6c5838ae",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Berg_Sparebank_937885288_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -217,7 +217,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885288"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/39d2a9f6d994981e05b3f368e11dca966b3971a9",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bien_Sparebank_ASA_991853995_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -225,7 +225,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991853995"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/70998c16ef0ada0a18786f3ca066fa9d7555d45e",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Birkenes_Sparebank_937893833_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -233,7 +233,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893833"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/6af21c63f19d4b47a24fa49fc96702c82030ab9c",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Bjugn_Sparebank_937902085_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -241,7 +241,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902085"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4f22bba265d55b9ee870d2e2eb56c88d268f8e81",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Blaker_Sparebank_837886252_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -249,7 +249,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837886252"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/6326b8c732b065c9ddbb4d8f79b6e97ef7f717a7",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Drangedal_og_Tordal_Sparebank_937891601_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -257,7 +257,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891601"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/74dc5a1bd93c5e4d4d4a70b3f924a0f4865a0b12",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Eidsberg_Sparebank_937884494_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -265,7 +265,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884494"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/21085bb267402af520a12445d2a18d1996c80c08",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Etnedal_Sparebank_937888570_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -273,7 +273,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888570"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/be59d9b067460926fd04657d75cadf787a5f2cd5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Evje_og_Hornnes_Sparebank_937894171_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -281,7 +281,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894171"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/061addf67578996332b93db82e864dc1791ccbda",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Fornebu_Sparebank_985750378_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -289,7 +289,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/985750378"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7dc6a272434a4e29f5cd4563a94bbd3f2a9809c7",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Gildeskal_Sparebank_937904673_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -297,7 +297,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904673"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/9627067b68d4dd77685b3ade7b3b48215ed9ef8b",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Grong_Sparebank_937903146_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -305,7 +305,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903146"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/63afde8f6eef90d7433643c273ff45b20b3cf0cd",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Grue_Sparebank_937886705_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -313,7 +313,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886705"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ae7e70a35eff9a6a2b31e8bf4600711d84ec2931",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Haltdalen_Sparebank_837902622_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -321,7 +321,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837902622"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/aaa7455aa04d51f53cd3bb0a966647f35024e856",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hegra_Sparebank_937903235_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -329,7 +329,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903235"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/13701692c7868c0193c207cd4a37367c4c2a54fe",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjartdal_og_Gransherad_Sparebank_937893299_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -337,7 +337,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893299"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjelmeland_Sparebank_937896581_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -345,7 +345,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896581"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/d36951800451566752167cf83c8197f246511ce4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Holand_og_Setskog_Sparebank_937885822_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -353,7 +353,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885822"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/1048f7bb8d85c26506d9ffad8fb9dbd1d084e3c3",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Honefoss_Sparebank_937889097_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -361,7 +361,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889097"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/51000ab6e8e95a661eac48a99ad18ead0f75fbb3",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Jeren_Sparebank_937895976_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -369,7 +369,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895976"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/33d99e79e4c09782d60e04460f66ad643acfda07",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Kvinesdal_Sparebank_937894805_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -377,7 +377,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894805"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/e63593baec1577ef2d626178b7884a24bab46091",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Larvikbanken_-_Din_Personlige_Sparebank_937890729_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -385,7 +385,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937890729"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/b84dad08b60f05390aeb2db72b6ef766336c2e98",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Romerike_Sparebank_937885911_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -393,7 +393,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885911"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4536a72207e8a14ff9deda32208403a9998beca1",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Marker_Sparebank_937884672_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -401,7 +401,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937884672"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ff40337f3058227f062e52751f95d22d9aace777",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Melhus_Sparebank_937901291_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -409,7 +409,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901291"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ad1d96520f927445ca61b985c85f67a54525ecb6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nidaros_Sparebank_937902719_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -417,7 +417,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902719"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7fe322ee6c6233d22625d5fbc826809087131ff7",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Odal_Sparebank_937887043_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -425,7 +425,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887043"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/3cca0b2d4d41f377b256b78fda0a64be0a515ae1",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Ofoten_Sparebank_955008863_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -433,7 +433,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/955008863"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/0e947ee8034e1836dfe352e2cc5a0a540e9e76ad",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Romsdal_Sparebank_937900775_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -441,7 +441,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900775"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/328ec41dd62252db5b940f89337d1cbf6b499cdd",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/RorosBanken_Roros_Sparebank_956548888_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -449,7 +449,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/956548888"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/d6763b61d6786dd7e6d859449716b23f028e76a3",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sandnes_Sparebank_915691161_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -457,7 +457,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915691161"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/123fc9f49bd171e4bc1f8ab4eb93ba1ff0b214ab",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Selbu_Sparebank_937901836_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -465,7 +465,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901836"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ac218cb36bc0e6ef7af47b4363419618a143baec",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skagerrak_Sparebank_937891245_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -473,7 +473,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891245"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/d99ed01672a2c1340b6707de26fa4ec1bcabb179",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skue_Sparebank_837889812_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -481,7 +481,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837889812"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/0cf6d78ee03fcda4cbe0327d16ad2bcbf8dc882c",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sogn_Sparebank_837897912_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -489,7 +489,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837897912"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/2b1302965ff2266ae7a51591ea9011855ebd3bd7",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Soknedal_Sparebank_937902263_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -497,7 +497,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902263"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/efbbab13ed6ddd8d76ff5a8dfe02bbd5f133dfda",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_DIN_937891512_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -505,7 +505,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891512"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/a053b53cd4bfad346eee48b4f55b69bc0fa21dea",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Stadsbygd_Sparebank_937902352_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -513,7 +513,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902352"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/64e4d0c45802d017b567c52811d7d97f22661706",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Strommen_Sparebank_937886160_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -521,7 +521,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937886160"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/9e32167545d3834893d30e23ab5e638a578d8079",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Surnadal_Sparebank_937900031_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -529,7 +529,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900031"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/e6b30b6a4ca0f0d708de4625deb10a8918628f29",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tinn_Sparebank_937891423_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -537,7 +537,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891423"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7eec5f30d9d54474f7e160ee259ab9ba6b516628",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tolga-Os_Sparebank_816793432_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -545,7 +545,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816793432"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/70485f3d6f557425aedd0d51d258a335e4938e9a",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Totens_Sparebank_937887787_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -553,7 +553,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937887787"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/9ec5c1b1f48f81cc339fdb58af48136c523a46cb",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trogstad_Sparebank_937885377_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -561,7 +561,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937885377"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/a3c99f63963768f0d2ac171da48588fa8fdc38a5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Valdres_Sparebank_937888759_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -569,7 +569,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888759"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/888c6007bca6d99e4716d6592c0ab5e07ef54da0",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Valle_Sparebank_937893922_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -577,7 +577,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893922"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/3882f660e4188182af9d044f4c641813195208d5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Voss_Veksel-_og_Landmandsbank_ASA_817244742_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -585,7 +585,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/817244742"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/d82330a87f8575b84b040b07c50f8987fa857c7a",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orland_Sparebank_937901925_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -593,7 +593,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901925"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/b6c7294e1a97005687db413ed1c667d4ee5d8bf5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orskog_Sparebank_837900212_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -601,7 +601,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837900212"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/79993be3e39afe102fa0291c3dcc2ed8b06e7ece",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Agder_Sparebank_937894260_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -609,7 +609,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894260"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4b28020a9edc96593ad03d41819b55dcd7ae3d99",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/BN_Bank_914864445_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -617,7 +617,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/914864445"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/363220ee3f2d92283b71d44a86b96a89c0497198",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Etne_Sparebank_937897464_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -625,7 +625,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897464"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/49eac7019883dbea60168eb98ace78b2fee8bcad",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Flekkefjord_Sparebank_937894627_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -633,7 +633,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894627"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/2109e9cbccfd783980fbc0165663e57cbc2d10f2",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Haugesund_Sparebank_837895502_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -641,7 +641,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837895502"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/a682d5c57d4aefa3519e98bb9d6965dc3296c5ca",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Lillesands_Sparebank_937893655_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -649,7 +649,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893655"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/fbdcbbf75f34b2c3d6e2e7b2aa9ca6ae19388472",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Luster_Sparebank_937898614_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -657,7 +657,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937898614"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/b0dc09d380af0cd29525f3f747d47f14f2c5caa6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Skudenes_og_Aakra_Sparebank_937896670_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -665,7 +665,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896670"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/092ddae55ff98daf7e1fdafa2c5f1b86dd0c6d0d",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Spareskillingsbanken_937894716_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -673,7 +673,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937894716"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/fb960fc60f150b2ac0d5f97e92a028e79783c2e9",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sogne_og_Greipstad_Sparebank_937895054_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -681,7 +681,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895054"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/690cd91aac621e7c6c25f59c809c5e5a21152cf4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Voss_Sparebank_937897286_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -689,7 +689,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897286"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/42b5e345cc36437d6e3dd7968e929c8cea5157d4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Gjensidige_Bank_990323429_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -697,7 +697,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/990323429"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/095120f083c80b934363a39823cac69bb21bb61c",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Helgeland_Sparebank_937904029_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -705,7 +705,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937904029"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/3dace1f98dcd39b2145540eb63c3928973eef5b5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Landkreditt_Bank_980374181_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -713,7 +713,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/980374181"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/fb33d306cc8362392c96ec50c9d489c645d7c5d9",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/OBOS-banken_911986884_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -721,7 +721,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/911986884"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/c13776f475deeb85e33fe35ae510bd91b5a63097",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_More_937899319_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -729,7 +729,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899319"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/53adbc30d9f58209098302e968b28cab1dd5b8a4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Ost_937888937_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -737,7 +737,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888937"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/c08ef410aaabf620fd9540541c929c4b4f284a35",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Vest_832554332_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -745,7 +745,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/832554332"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/be225a0c326fc4f2c76f5019cf76ec2ce90bde77",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Fana_Sparebank_937896859_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -753,7 +753,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896859"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/dd3a659472c639ccd545657fdedc2eae021f5381",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/MyBank_ASA_916012683_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -761,7 +761,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916012683"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/57d89ebce7a780c1aebd56eb1a7320a062267985",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Storebrand_Bank_ASA_953299216_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -769,7 +769,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/953299216"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/8a49fc9f1e9ee956003fdffa58388f655d4290f8",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/KLP_Banken_AS_993821837_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -777,7 +777,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/993821837"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/4f1eda051becea2aeb5293a59694f4baf9001532",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Brage_Finans_AS_995610760_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -785,7 +785,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/995610760"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/0885edccdee9530c35dd1d8c4e8ed3a133e2a2af",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Danske_Bank_977074010_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -793,7 +793,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/977074010"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/f4f288251c1264394cc684c8a3aeb542251ce1b6",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Instabank_ASA_816914582_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -801,7 +801,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/816914582"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/b2ec98c8626901bc5a60b899575597e5688d8b6f",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Ekspress_Bank_991682511_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -809,7 +809,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991682511"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ae3188ad733332061c0cad26fe8274705c0d9188",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Nordax_Bank_AB_916573154_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -817,7 +817,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/916573154"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/34a046d10d129ef789db2297f6750ef06f62d4e4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/BRAbank_ASA_986144706_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -825,7 +825,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/986144706"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/313466b8fc1b37e6755e0f2b8867b2868daebf92",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Østlandet_AS_975963748_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -833,7 +833,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975963748"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/7da9a4168e6ee09daae783224acbe0f3014227db",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Midt_Norge_AS_938521549_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -841,7 +841,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/938521549"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/bed5a86134e680181948c584cbadacf7ee9274e5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/SPAREBANK_1_SR-BANK_ASA_937895321_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -849,7 +849,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937895321"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/bdd11fb61ab67421bdd318563aa26a322a840a98",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_Finans_Nord-Norge_AS_930050237_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -857,7 +857,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/930050237"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/d062ef0a6aa22b8c488fcfa853ccfd3785293768",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebank_1_KREDITT_AS_975966453_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -865,7 +865,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975966453"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/80e8841ab7c8171cd0bbc6a422ae748cbe82853d",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Sogn_og_Fjordane_946670081_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -873,7 +873,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/946670081"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/6e086e448d5250a71ae1ec20ab5f8c9e5743a57d",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/JBF_982719445_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -881,7 +881,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982719445"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/c33f09e9de2da0bf16e35ec74378c922831a6b9e",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Tysnes_Bank_937897375_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -889,7 +889,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937897375"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/b90c57337480d219fc27b3a9e742878122fe5d92",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sunndal_Sparebank_937899963_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -897,7 +897,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899963"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/ceda1dc50557bb8b3f5f3102619d75ad9b1dad6a",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Rindal_Sparebank_937900953_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -905,7 +905,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937900953"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/aef187e77acc2940eb0ba5dc6432118c67e2fdf5",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Oppdalsbanken_937901569_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -913,7 +913,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901569"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/915520ac25311a6e02947ffda18e899a27347095",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Orkdal_Sparebank_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -921,7 +921,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/947278770"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/075b02e104266c5cdd9051967bea4ed6d0766aaa",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trondelag_Sparebank_937902174_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -929,7 +929,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937902174"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/8e4a4992129b456d413c9036dc8f1c3652162875",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparebanken_Narvik_937903979_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
@@ -937,7 +937,7 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937903979"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/a4bb11ce40ef473109d15ed3a5e7ee029cb656c2",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sparesmart_989997254_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"

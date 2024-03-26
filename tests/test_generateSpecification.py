@@ -51,12 +51,15 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
     """Should return exit_code 0."""
     with runner.isolated_filesystem():
         with open("banker.csv", "w") as f:
-            f.write("OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest\n")
+            f.write(
+                "OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest,Id,TestId\n"
+            )
             f.write(
                 "837884942,SPAREBANK 1 ØSTFOLD AKERSHUS,"
                 "Sparebank1_837884942_Accounts-API.json,"
                 "https://api.sparebank1.no/dsop/Service/v2/837884942,"
-                "https://api-test.sparebank1.no/dsop/Service/v2/837884942"
+                "https://api-test.sparebank1.no/dsop/Service/v2/837884942,"
+                ","
                 "\n"
             )
         with open("template.yaml", "w") as t:
@@ -153,7 +156,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
-            "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+            "identifier": "https://dataservice-publisher.digdir.no/dataservices/34472b326c22e41650828da4a13ffff41d1a7cf0",
             "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
@@ -195,7 +198,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
           "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827",
           "apis": [
            {
-            "identifier": "https://dataservice-publisher.digdir.no/dataservices/{id}",
+            "identifier": "https://dataservice-publisher.digdir.no/dataservices/a9227a94f668f23b64bd676873832b70962011ee",
             "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942",
             "url": "%s",
             "conformsTo": [
@@ -224,12 +227,15 @@ def test_main_fails_trailing_slash_1(runner: CliRunner) -> None:
     """Should return exit_code 0."""
     with runner.isolated_filesystem():
         with open("banker.csv", "w") as f:
-            f.write("OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest\n")
+            f.write(
+                "OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest,Id,TestId\n"
+            )
             f.write(
                 "837884942,SPAREBANK 1 ØSTFOLD AKERSHUS,"
                 "Sparebank1_837884942_Accounts-API.json,"
                 "https://api.sparebank1.no/dsop/Service/v2/837884942/,"
-                "https://api-test.sparebank1.no/dsop/Service/v2/837884942"
+                "https://api-test.sparebank1.no/dsop/Service/v2/837884942,"
+                ","
                 "\n"
             )
         with open("template.yaml", "w") as t:
@@ -251,12 +257,15 @@ def test_main_fails_trailing_slash_2(runner: CliRunner) -> None:
     """Should return exit_code 0."""
     with runner.isolated_filesystem():
         with open("banker.csv", "w") as f:
-            f.write("OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest\n")
+            f.write(
+                "OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest,Id,TestId\n"
+            )
             f.write(
                 "837884942,SPAREBANK 1 ØSTFOLD AKERSHUS,"
                 "Sparebank1_837884942_Accounts-API.json,"
                 "https://api.sparebank1.no/dsop/Service/v2/837884942,"
-                "https://api-test.sparebank1.no/dsop/Service/v2/837884942/"
+                "https://api-test.sparebank1.no/dsop/Service/v2/837884942/,"
+                ","
                 "\n"
             )
         with open("template.yaml", "w") as t:
@@ -297,6 +306,7 @@ def _get_bank() -> List[str]:
         "SPAREBANK 1 ØSTFOLD AKERSHUS,"
         "Sparebank1_837884942_Accounts-API.json,"
         "https://api.sparebank1.no/Service/v2/837884942,"
-        "https://api-test.sparebank1.no/Service/v2/837884942"
+        "https://api-test.sparebank1.no/Service/v2/837884942,"
+        ","
     )
     return bank_str.split(",")

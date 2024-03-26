@@ -66,7 +66,9 @@ def main(template: Any, input: Any, directory: Any) -> None:
                 directory, specification_filename
             )
             _write_spec_to_file(specification_filedirectory, spec)
-            _add_spec_to_catalog(orgnummer, specification_filename, prod_catalog)
+            _add_spec_to_catalog(
+                orgnummer, bank[5], specification_filename, prod_catalog
+            )
         if bank[4] and len(bank[4]) > 0:  # Test
             # Validate Test url:
             if bank[4].endswith("/"):
@@ -79,7 +81,9 @@ def main(template: Any, input: Any, directory: Any) -> None:
                 directory, specification_filename
             )
             _write_spec_to_file(specification_filedirectory, spec)
-            _add_spec_to_catalog(orgnummer, specification_filename, test_catalog)
+            _add_spec_to_catalog(
+                orgnummer, bank[6], specification_filename, test_catalog
+            )
 
     _write_catalog_file(prod_catalog_filename, prod_catalog)
     _write_catalog_file(test_catalog_filename, test_catalog)
@@ -104,6 +108,7 @@ def _write_spec_to_file(specification_filedirectory: str, spec: dict) -> None:
 
 def _add_spec_to_catalog(
     orgnummer: str,
+    api_id: str,
     specification_filename: str,
     catalog: Catalog,
 ) -> None:
@@ -112,7 +117,7 @@ def _add_spec_to_catalog(
         "Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/"
         f"{specification_filename}"
     )
-    api = API(url)
+    api = API(url, api_id)
     api.publisher = f"https://organization-catalog.fellesdatakatalog.digdir.no/organizations/{orgnummer}"  # noqa: B950
     api.conformsTo.append("https://bitsnorge.github.io/dsop-accounts-api")
     catalog.apis.append(api)
