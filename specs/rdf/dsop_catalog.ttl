@@ -91,6 +91,7 @@
         <https://dataservice-publisher.digdir.no/dataservices/aef187e77acc2940eb0ba5dc6432118c67e2fdf5>,
         <https://dataservice-publisher.digdir.no/dataservices/b0dc09d380af0cd29525f3f747d47f14f2c5caa6>,
         <https://dataservice-publisher.digdir.no/dataservices/b2ec98c8626901bc5a60b899575597e5688d8b6f>,
+        <https://dataservice-publisher.digdir.no/dataservices/b325a52358ada9af1a77a0c3c50adab4687ee116>,
         <https://dataservice-publisher.digdir.no/dataservices/b6c7294e1a97005687db413ed1c667d4ee5d8bf5>,
         <https://dataservice-publisher.digdir.no/dataservices/b84dad08b60f05390aeb2db72b6ef766336c2e98>,
         <https://dataservice-publisher.digdir.no/dataservices/b90c57337480d219fc27b3a9e742878122fe5d92>,
@@ -980,6 +981,16 @@
     dct:title "Accounts API Ekspress Bank"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Ekspress_Bank_991682511_Accounts-API.json> ;
     dcat:endpointURL <https://apigateway.expressbank.dk/control-information/v1> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/b325a52358ada9af1a77a0c3c50adab4687ee116> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/992873183> ;
+    dct:title "Accounts API Volkswagen Møller Bilfinans"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Volkswagen_Moller_Bilfinans_992873183_Accounts-API.json> ;
+    dcat:endpointURL <https://central.services.banqsoft.com/dsop-kontroll/v1> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
