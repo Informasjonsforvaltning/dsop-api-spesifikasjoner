@@ -120,3 +120,4 @@ OrgNummer,Navn,Filnavn,EndepunktProduksjon,EndepunktTest,Id,TestId
 937902174,Trøndelag Sparebank,Trondelag_Sparebank_937902174_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4314,,075b02e104266c5cdd9051967bea4ed6d0766aaa,
 937903979,Sparebanken Narvik,Sparebanken_Narvik_937903979_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/4529,,8e4a4992129b456d413c9036dc8f1c3652162875,
 989997254,Sparesmart (En del av Eika Kredittbank),Sparesmart_989997254_Accounts-API.json,https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/9815,,a4bb11ce40ef473109d15ed3a5e7ee029cb656c2,
+992873183,Volkswagen Møller Bilfinans,Volkswagen_Moller_Bilfinans_992873183_Accounts-API.json,https://central.services.banqsoft.com/dsop-kontroll/v1,,,
