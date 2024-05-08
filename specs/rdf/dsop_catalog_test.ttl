@@ -5,7 +5,8 @@
     dct:description "Samling av kontoopplysnings API"@nb ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827> ;
     dct:title "DSOP API katalog [TEST]"@nb ;
-    dcat:service <https://dataservice-publisher.digdir.no/dataservices/083f0d95eff9cbdd141774173cf0fcd78911a210>,
+    dcat:service <https://dataservice-publisher.digdir.no/dataservices/01bfbbb713695fe47afd307e1c6c9a0bd2f247cc>,
+        <https://dataservice-publisher.digdir.no/dataservices/083f0d95eff9cbdd141774173cf0fcd78911a210>,
         <https://dataservice-publisher.digdir.no/dataservices/1362e50c96eb5194445b59f4d0738783753de8d3>,
         <https://dataservice-publisher.digdir.no/dataservices/140e0a2916aa0239ed4c8dfda06d75104a70d7a8>,
         <https://dataservice-publisher.digdir.no/dataservices/1b01b82afc44ac0822d8ea1c04d48873b4a90982>,
@@ -35,6 +36,16 @@
         <https://dataservice-publisher.digdir.no/dataservices/de50c81dc570ffc23fff04f4bd98b7843a890393>,
         <https://dataservice-publisher.digdir.no/dataservices/e5e788de74a46234f04e5110709120a78599905f>,
         <https://dataservice-publisher.digdir.no/dataservices/fe6ca588a126e516561670598d3ebfbfbea24f5a> .
+
+<https://dataservice-publisher.digdir.no/dataservices/01bfbbb713695fe47afd307e1c6c9a0bd2f247cc> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982759412> ;
+    dct:title "Accounts API Oslo Pensjonsforsikring AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Oslo_Pensjonsforsikring_AS_982759412_Accounts-API.json> ;
+    dcat:endpointURL <https://test.stacc.com:33443/dsop/api/v2> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
 
 <https://dataservice-publisher.digdir.no/dataservices/083f0d95eff9cbdd141774173cf0fcd78911a210> a dcat:DataService ;
     dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;

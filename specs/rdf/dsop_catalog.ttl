@@ -78,6 +78,7 @@
         <https://dataservice-publisher.digdir.no/dataservices/9afef1acaf124200c67e7ca43ffdf632bafad8b9>,
         <https://dataservice-publisher.digdir.no/dataservices/9e32167545d3834893d30e23ab5e638a578d8079>,
         <https://dataservice-publisher.digdir.no/dataservices/9ec5c1b1f48f81cc339fdb58af48136c523a46cb>,
+        <https://dataservice-publisher.digdir.no/dataservices/a04a572dbaec07ea346359751569914715ba8254>,
         <https://dataservice-publisher.digdir.no/dataservices/a053b53cd4bfad346eee48b4f55b69bc0fa21dea>,
         <https://dataservice-publisher.digdir.no/dataservices/a3c99f63963768f0d2ac171da48588fa8fdc38a5>,
         <https://dataservice-publisher.digdir.no/dataservices/a49b2a1aff44654f2cbeb772816397f2c9939a1f>,
@@ -851,6 +852,16 @@
     dct:title "Accounts API Trøgstad Sparebank"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Trogstad_Sparebank_937885377_Accounts-API.json> ;
     dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/1144> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
+        <https://www.iana.org/assignments/media-types/application/json> .
+
+<https://dataservice-publisher.digdir.no/dataservices/a04a572dbaec07ea346359751569914715ba8254> a dcat:DataService ;
+    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
+    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982759412> ;
+    dct:title "Accounts API Oslo Pensjonsforsikring AS"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Oslo_Pensjonsforsikring_AS_982759412_Accounts-API.json> ;
+    dcat:endpointURL <https://dsop.core.kassa.no:8443/api/v2> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 

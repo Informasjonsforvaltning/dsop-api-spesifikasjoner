@@ -22,6 +22,7 @@ from .catalog import API, Catalog
 @click.version_option(version=__version__)
 @click.argument("template", type=click.File("r"))
 @click.argument("input", type=click.File("r"))
+@click.argument("use_local_files", type=click.BOOL)
 @click.option(
     "-d",
     "--directory",
@@ -34,7 +35,9 @@ from .catalog import API, Catalog
         writable=True,
     ),
 )
-def main(template: Any, input: Any, directory: Any) -> None:
+def main(
+    template: Any, input: Any, directory: Any, use_local_files: bool = True
+) -> None:
     """Write specification and catalog file based on template for bank."""
     # Add a trailing slash to directory if not there:
     directory = os.path.join(directory, "")
@@ -89,10 +92,12 @@ def main(template: Any, input: Any, directory: Any) -> None:
     _write_catalog_file(test_catalog_filename, test_catalog)
 
     _write_catalog_rdf_file(
-        turtle_prod_catalog_filename, create_catalog_graph(prod_catalog)
+        turtle_prod_catalog_filename,
+        create_catalog_graph(prod_catalog, use_local_files),
     )
     _write_catalog_rdf_file(
-        turtle_test_catalog_filename, create_catalog_graph(test_catalog)
+        turtle_test_catalog_filename,
+        create_catalog_graph(test_catalog, use_local_files),
     )
 
 
@@ -162,7 +167,7 @@ def _generateSpec(template: dict, bank: List[str], production: bool) -> dict:
     return specification
 
 
-def create_catalog_graph(catalog: Catalog) -> Graph:
+def create_catalog_graph(catalog: Catalog, use_local_files: bool) -> Graph:
     """Create a graph based on catalog and persist to store."""
     # Use datacatalogtordf and oastodcat to create a graph and persist:
     g = datacatalogtordf.Catalog()
@@ -172,10 +177,24 @@ def create_catalog_graph(catalog: Catalog) -> Graph:
     g.publisher = catalog.publisher
 
     for api in catalog.apis:
-        with get(api.url, timeout=5) as response:
-            if response.status_code == 200:
-                api_spec = response.text
-                oas = yaml.safe_load(api_spec)
+        if (
+            use_local_files
+            and "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/"
+            in api.url
+        ):
+            file_path = api.url.replace(
+                "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/",
+                "",
+            )
+            api_spec_file = open(file_path, "r")
+            api_spec = api_spec_file.read()
+            api_spec_file.close()
+            oas = yaml.safe_load(api_spec)
+        else:
+            with get(api.url, timeout=5) as response:
+                if response.status_code == 200:
+                    api_spec = response.text
+                    oas = yaml.safe_load(api_spec)
 
         oas_spec = OASDataService(api.url, oas, api.identifier)
         oas_spec.conforms_to = api.conformsTo
