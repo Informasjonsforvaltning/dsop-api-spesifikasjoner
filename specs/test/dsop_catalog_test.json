@@ -247,6 +247,14 @@
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/984150865"
+    },
+    {
+      "identifier": "https://dataservice-publisher.digdir.no/dataservices/01bfbbb713695fe47afd307e1c6c9a0bd2f247cc",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Oslo_Pensjonsforsikring_AS_982759412_Accounts-API.json",
+      "conformsTo": [
+        "https://bitsnorge.github.io/dsop-accounts-api"
+      ],
+      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/982759412"
     }
   ]
 }

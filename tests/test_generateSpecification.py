@@ -69,7 +69,7 @@ def test_main(mocker: MockerFixture, runner: CliRunner) -> None:
             t.write("servers:\n")
             t.write("  - url: 'https://hostname.no/v1'\n")
 
-        result = runner.invoke(main, ["template.yaml", "banker.csv"])
+        result = runner.invoke(main, ["template.yaml", "banker.csv", "False"])
         assert result.output == ""
         assert result.exit_code == 0
 
@@ -248,7 +248,7 @@ def test_main_fails_trailing_slash_1(runner: CliRunner) -> None:
             t.write("  - url: 'https://hostname.no/v1'\n")
             t.write("    description: 'test'\n")
 
-        result = runner.invoke(main, ["template.yaml", "banker.csv"])
+        result = runner.invoke(main, ["template.yaml", "banker.csv", "False"])
         assert result.exit_code == 1
         assert result.output is not None
 
@@ -278,7 +278,7 @@ def test_main_fails_trailing_slash_2(runner: CliRunner) -> None:
             t.write("  - url: 'https://hostname.no/v1'\n")
             t.write("    description: 'test'\n")
 
-        result = runner.invoke(main, ["template.yaml", "banker.csv"])
+        result = runner.invoke(main, ["template.yaml", "banker.csv", "False"])
         assert result.exit_code == 1
         assert result.output is not None
 
