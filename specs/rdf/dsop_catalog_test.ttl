@@ -123,7 +123,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920058817> ;
     dct:title "Accounts API Nordea Bank Abp, filial i Norge"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Nordea_Bank_Abp_920058817_Accounts-API.json> ;
-    dcat:endpointURL <https://RB-DSOP-ARC642-NO-test01-extranet.test.nordea.com:9040/v1> ;
+    dcat:endpointURL <https://rb-dsop-arc642-no-test01-extranet.test.nordea.com:9040/v2> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
