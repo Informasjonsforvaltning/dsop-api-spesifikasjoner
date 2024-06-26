@@ -53,7 +53,7 @@ A simple script is made to do the generation based on the banker.csv file and th
 
 ## Run cli script
 
-```shell
+````shell
 % poetry shell
 % dsop_api_spesifikasjoner --help
 
@@ -62,10 +62,10 @@ Alternatively you can use `poetry run`:
 
 ```shell
 % poetry run dsop_api_spesifikasjoner --help
-```
+````
 
 Example:
 
 ```shell
-% dsop_api_spesifikasjoner -d specs template/Accounts\ API\ openapi\ v1.0.0.yaml banker.csv
+% dsop_api_spesifikasjoner -d specs template/Accounts\ API\ openapi\ v1.0.0.yaml banker.csv true
 ```

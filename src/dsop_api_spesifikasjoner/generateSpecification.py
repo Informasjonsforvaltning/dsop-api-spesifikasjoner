@@ -1,4 +1,5 @@
 """Module for generate openAPI specifications."""
+
 import copy
 import csv
 import json

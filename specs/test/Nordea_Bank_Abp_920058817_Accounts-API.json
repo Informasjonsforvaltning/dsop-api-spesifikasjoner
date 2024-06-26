@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://RB-DSOP-ARC642-NO-test01-extranet.test.nordea.com:9040/v1",
+      "url": "https://rb-dsop-arc642-no-test01-extranet.test.nordea.com:9040/v2",
       "description": "test"
     }
   ],
