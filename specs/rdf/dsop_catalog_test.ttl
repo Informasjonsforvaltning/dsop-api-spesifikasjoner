@@ -343,7 +343,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/984851006> ;
     dct:title "Accounts API DNB"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/DNB_984851006_Accounts-API.json> ;
-    dcat:endpointURL <https://test.publicsector.dnb.no/v1> ;
+    dcat:endpointURL <https://test.publicsector.dnb.no/v2> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
