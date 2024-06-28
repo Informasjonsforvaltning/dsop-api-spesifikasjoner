@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://test.publicsector.dnb.no/v1",
+      "url": "https://test.publicsector.dnb.no/v2",
       "description": "test"
     }
   ],
