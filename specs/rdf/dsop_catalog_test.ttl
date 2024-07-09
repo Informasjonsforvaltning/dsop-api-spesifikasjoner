@@ -53,7 +53,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889275> ;
     dct:title "Accounts API SPAREBANK 1 RINGERIKE HADELAND"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889275_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889275> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937889275> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -63,7 +63,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/837884942> ;
     dct:title "Accounts API SPAREBANK 1 ØSTFOLD AKERSHUS"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_837884942_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/837884942> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/837884942> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -73,7 +73,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889631> ;
     dct:title "Accounts API SPAREBANK 1 HALLINGDAL OG VALDRES"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889631_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889631> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937889631> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -93,7 +93,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/944521836> ;
     dct:title "Accounts API SPAREBANK 1 BV"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_944521836_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/944521836> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/944521836> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -143,7 +143,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888015> ;
     dct:title "Accounts API SPAREBANK 1 LOM OG SKJÅK"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937888015_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888015> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937888015> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -153,7 +153,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/952706365> ;
     dct:title "Accounts API SPAREBANK 1 NORD-NORGE"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_952706365_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/952706365> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/952706365> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -183,7 +183,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/920426530> ;
     dct:title "Accounts API SPAREBANK 1 ØSTLANDET"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_920426530_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/920426530> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/920426530> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -243,7 +243,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/975966453> ;
     dct:title "Accounts API SPAREBANK 1 KREDITT AS"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank_1_KREDITT_AS_975966453_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/975966453> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/975966453> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -253,7 +253,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937889186> ;
     dct:title "Accounts API SPAREBANK 1 MODUM"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937889186_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937889186> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937889186> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -263,7 +263,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937901003> ;
     dct:title "Accounts API SPAREBANK 1 SMN"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937901003_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937901003> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937901003> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -273,7 +273,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937888104> ;
     dct:title "Accounts API SPAREBANK 1 GUDBRANDSDAL"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937888104_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937888104> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937888104> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -283,7 +283,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937899408> ;
     dct:title "Accounts API SPAREBANK 1 NORDVEST"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937899408_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937899408> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937899408> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -293,7 +293,7 @@
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937891334> ;
     dct:title "Accounts API SPAREBANK 1 TELEMARK"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/test/Sparebank1_937891334_Accounts-API.json> ;
-    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937891334> ;
+    dcat:endpointURL <https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937891334> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 

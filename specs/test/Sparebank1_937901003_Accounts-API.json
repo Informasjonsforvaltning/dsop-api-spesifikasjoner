@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api-test.sparebank1.no/dsopaccountcontrolinfo/v2/AccountControlInfoService/v2/937901003",
+      "url": "https://api-test.sparebank1.no/dsopaccountcontrolinfo/AccountControlInfoService/v2_0/937901003",
       "description": "test"
     }
   ],
