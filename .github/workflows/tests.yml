@@ -9,7 +9,7 @@ jobs:
     name: Python ${{ matrix.python-version }}
     uses: Informasjonsforvaltning/workflows/.github/workflows/test-nox.yaml@main
     with:
-      python-version: ${{ matrix.python-version }}
-      architecture: x64
+      python_version: ${{ matrix.python-version }}
+      python_architecture: x64
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
