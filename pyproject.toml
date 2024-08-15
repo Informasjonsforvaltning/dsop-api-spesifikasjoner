@@ -6,7 +6,7 @@ authors = ["Stig B. Dørmænen <stigbd@gmail.com>"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
+python = ">=3.9,<3.10"
 PyYAML = "^6.0"
 click = "^8.1.3"
 jsonpickle = "^2.2.0"
