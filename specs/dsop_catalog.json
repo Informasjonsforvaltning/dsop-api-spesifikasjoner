@@ -337,14 +337,6 @@
       "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937893299"
     },
     {
-      "identifier": "https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjelmeland_Sparebank_937896581_Accounts-API.json",
-      "conformsTo": [
-        "https://bitsnorge.github.io/dsop-accounts-api"
-      ],
-      "publisher": "https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896581"
-    },
-    {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/d36951800451566752167cf83c8197f246511ce4",
       "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Holand_og_Setskog_Sparebank_937885822_Accounts-API.json",
       "conformsTo": [
@@ -450,7 +442,7 @@
     },
     {
       "identifier": "https://dataservice-publisher.digdir.no/dataservices/d6763b61d6786dd7e6d859449716b23f028e76a3",
-      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sandnes_Sparebank_915691161_Accounts-API.json",
+      "url": "https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Rogaland_Sparebank_915691161_Accounts-API.json",
       "conformsTo": [
         "https://bitsnorge.github.io/dsop-accounts-api"
       ],
