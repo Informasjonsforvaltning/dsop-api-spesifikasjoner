@@ -112,7 +112,6 @@
         <https://dataservice-publisher.digdir.no/dataservices/d82330a87f8575b84b040b07c50f8987fa857c7a>,
         <https://dataservice-publisher.digdir.no/dataservices/d99ed01672a2c1340b6707de26fa4ec1bcabb179>,
         <https://dataservice-publisher.digdir.no/dataservices/dd3a659472c639ccd545657fdedc2eae021f5381>,
-        <https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6>,
         <https://dataservice-publisher.digdir.no/dataservices/e411c802b2ffbb89b951f26356a1d732fd174215>,
         <https://dataservice-publisher.digdir.no/dataservices/e63593baec1577ef2d626178b7884a24bab46091>,
         <https://dataservice-publisher.digdir.no/dataservices/e6b30b6a4ca0f0d708de4625deb10a8918628f29>,
@@ -1159,8 +1158,8 @@
     dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
     dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/915691161> ;
-    dct:title "Accounts API Sandnes Sparebank"@en ;
-    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Sandnes_Sparebank_915691161_Accounts-API.json> ;
+    dct:title "Accounts API Rogaland Sparebank"@en ;
+    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Rogaland_Sparebank_915691161_Accounts-API.json> ;
     dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3263> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
@@ -1192,16 +1191,6 @@
     dct:title "Accounts API MyBank ASA"@en ;
     dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/MyBank_ASA_916012683_Accounts-API.json> ;
     dcat:endpointURL <https://api-proxy.sdc.dk/api/dsop-accounts-api/v1/banks/916012683> ;
-    dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
-        <https://www.iana.org/assignments/media-types/application/json> .
-
-<https://dataservice-publisher.digdir.no/dataservices/e37f1718b0ac063248779480e1831a976346d6d6> a dcat:DataService ;
-    dct:conformsTo <https://bitsnorge.github.io/dsop-accounts-api> ;
-    dct:description "Open API specification of the Account APIs. (Work in progress.)"@en ;
-    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/937896581> ;
-    dct:title "Accounts API Hjelmeland Sparebank"@en ;
-    dcat:endpointDescription <https://raw.githubusercontent.com/Informasjonsforvaltning/dsop-api-spesifikasjoner/master/specs/Hjelmeland_Sparebank_937896581_Accounts-API.json> ;
-    dcat:endpointURL <https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3354> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/jose>,
         <https://www.iana.org/assignments/media-types/application/json> .
 

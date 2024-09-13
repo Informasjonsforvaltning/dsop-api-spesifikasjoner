@@ -3,11 +3,11 @@
   "info": {
     "description": "Open API specification of the Account APIs. (Work in progress.)",
     "version": "1.0.0",
-    "title": "Accounts API Hjelmeland Sparebank"
+    "title": "Accounts API Rogaland Sparebank"
   },
   "servers": [
     {
-      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3354",
+      "url": "https://bf-esb-internet.edb.com/secesb/rest/era-dsop/v1/3263",
       "description": "production"
     }
   ],
